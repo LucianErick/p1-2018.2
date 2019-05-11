@@ -1,0 +1,18 @@
+{
+  "files": {
+    "custo_empregado.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: Custo Empregado\n\nsalario_base = float(raw_input())\ndias = int(raw_input())\ntransporte= float(raw_input())\n\ntransporte_total = transporte * dias\ntransporte_percent = (transporte_total / salario_base) * 100\n\n#Patr\u00e3o\nif transporte_percent <= 6:\n    transporte_patrao = 0\n    transporte_funcionario = 0\nelse:\n    transporte_funcionario = salario_base * 0.06\n    transporte_patrao = transporte_total - transporte_funcionario\n\nfgts_patrao = salario_base * 0.08\ninss_patrao = salario_base * 0.12\n\n#Empregado\n\nif salario_base <= 1317.07:\n    inss_funcionario = salario_base * 0.08\nelif 1317.07 < salario_base <= 2195.12:\n    inss_funcionario = salario_base * 0.09\nelse:\n    inss_funcionario = salario_base * 0.11\n\n\ndespesas_funcionario = inss_funcionario + transporte_funcionario\nsalario_liquido = salario_base - despesas_funcionario\ndespesas_patrao = transporte_patrao + fgts_patrao + inss_patrao + salario_base\n\nprint 'O sal\u00e1rio base \u00e9 R$ %.2f' % salario_base\nprint 'O custo mensal para o empregador \u00e9 de R$ %.2f' % despesas_patrao\nprint 'O sal\u00e1rio l\u00edquido que o trabalhador ir\u00e1 receber no m\u00eas \u00e9 R$ %.2f' % salario_liquido\n",
+      "name": "custo_empregado.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 5,\n      \"pep8\": 1,\n      \"lloc\": 20,\n      \"vhalstead\": 351.03,\n      \"header\": 3\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "dbad6b78726ceb79b8a3391db45bbe6c",
+  "iid": 5559060837433344,
+  "activity_revision": "1.0.2"
+}

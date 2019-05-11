@@ -1,0 +1,14 @@
+{
+  "files": {
+    "perimetro_triangulo.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: Per\u00edmetro tri\u00e2ngulo\n\n#Sabemos que o x representa eixo das abcissas (horizontal)\n#Sabemos que o y representa o eixo das ordenadas (vertical)\n#Logo, com conhecimento pr\u00e9vio, ao vermos o referencial do plano cartesiano deste jeito: (X,Y), conclu\u00edmos ent\u00e3o que isso representa: (a coordenada horizontal, a coordenada vertical)\nimport math\n\nx1 = int(raw_input())\ny1 = int(raw_input())\nx2 = int(raw_input())\ny2 = int(raw_input())\nx3 = int(raw_input())\ny3 = int(raw_input())\n\nAB = math.sqrt((x1 - x2) ** 2 + (y1 - y2) ** 2) \nBC = math.sqrt((x2 - x3) ** 2 + (y2 - y3) ** 2)\nAC = math.sqrt((x1 - x3) ** 2 + (y1 - y3) ** 2)\n\nperimetro = AB + BC + AC\n\nprint 'O per\u00edmetro \u00e9 de %.2f' % perimetro\n",
+      "name": "perimetro_triangulo.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "1f923153e1b0560ea6cded9165f983f7",
+  "iid": 5032731251572736,
+  "activity_revision": "1.1.0"
+}

@@ -1,0 +1,14 @@
+{
+  "files": {
+    "medida.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: unidades e medidas\n\nmedida = float(raw_input())\n\nmedida_em_centimetros = medida * 100\num_cm_para_polegadas = 0.3937007874015748\num_cm_para_pes = 0.03280839895013123\num_cm_para_jardas = 0.010936132983377079\n\npolegadas = medida_em_centimetros * um_cm_para_polegadas\npes = medida_em_centimetros * um_cm_para_pes\njardas = medida_em_centimetros * um_cm_para_jardas \n\nprint 'Jardas: %.3f yd' % jardas \nprint 'P\u00e9s: %.3f ft' % pes\nprint 'Polegadas: %.3f in' % polegadas\n \n",
+      "name": "medida.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "66c4e755a5e5663fdab6c1409dd42867",
+  "iid": 5300471325523968,
+  "activity_revision": "1.1.0"
+}

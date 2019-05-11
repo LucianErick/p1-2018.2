@@ -1,0 +1,14 @@
+{
+  "files": {
+    "ritmo.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: Ritmo de um maratonista\n\ndistancia_percorrida = float(raw_input())\ntempo = int(raw_input())\nritmo = tempo / distancia_percorrida\nprint 'O ritmo do maratonista foi %.2f min/km.' % ritmo\n",
+      "name": "ritmo.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "a1911ce7b05f78e4fc0216a4d41d82da",
+  "iid": 5487695929278464,
+  "activity_revision": "2.1.4"
+}

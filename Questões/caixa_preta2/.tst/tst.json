@@ -1,0 +1,14 @@
+{
+  "files": {
+    "caixa_preta.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o I | 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Caixa Preta (Descartando Leituras)\n\nn_p = 0\nn_c = 0\nn_a = 0\n\n\nwhile True:\n\n    dados = raw_input().split()\n\n    peso = dados[0]\n    combustivel = dados[1]\n    altitude = dados[2]\n\n    if int(peso) < 0:\n\n       print 'dado inconsistente. peso negativo.'\n\n       break\n\n    else:\n\n        n_p += 1\n\n\n    if int(combustivel) < 0:\n\n       print 'dado inconsistente. combust\u00edvel negativo.'\n       break\n\n    else:\n\n        n_c += 1\n\n    if int(altitude) < 0:\n\n       print 'dado inconsistente. altitude negativa.'\n\n       break\n\n    else:\n\n        n_a += 1\n\nprint 'peso: %d' % (n_p)\nprint 'combust\u00edvel: %d' % (n_c)\nprint 'altitude: %d' % (n_a)\n",
+      "name": "caixa_preta.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "3ea1a39560948d429744369f04e2e261",
+  "iid": 6024211382403072,
+  "activity_revision": "1.0.1"
+}

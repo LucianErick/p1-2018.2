@@ -1,0 +1,19 @@
+{
+  "files": {
+    "public_tests.py": {
+      "category": "public",
+      "data": "import unittest\nimport sys\n\nundertest = __import__(sys.argv[-1].split(\".py\")[0])\ndivisor = getattr(undertest, 'divisor', None)\n\nclass PublicTests(unittest.TestCase):\n\n    def test_exemplo(self):\n        lista1 = [100,10,40,50]\n        lista2 = [3,15,50,23,5]\n        assert divisor(10, lista1) == 0\n        assert divisor(5, lista2) == 1\n        \nif __name__ == '__main__':\n    loader = unittest.TestLoader()\n    runner = unittest.TextTestRunner()\n    runner.run(loader.loadTestsFromModule(sys.modules[__name__]))\n",
+      "name": "public_tests.py"
+    },
+    "divisor.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o I | 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Divisor\n\ndef divisor(numero, lista):\n\n    lista_divisores = []\n    for i in range(len(lista)):\n\n        if (lista[i] % numero) == 0:\n\n            lista_divisores.append(lista[i])\n\n        if len(lista_divisores) != 0:\n\n            return i\n\n    if len(lista_divisores) == 0:\n\n        return -1        \n",
+      "name": "divisor.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "07ba370471ec94a51c8c61dc0f4ac92e",
+  "iid": 5014934198943744,
+  "activity_revision": "1.0.0"
+}

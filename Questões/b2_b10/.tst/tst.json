@@ -1,0 +1,18 @@
+{
+  "files": {
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 2,\n      \"pep8\": 0,\n      \"lloc\": 9,\n      \"vhalstead\": 89.21,\n      \"header\": 3\n    }\n  ]\n}"
+    },
+    "b2_b10.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1 | 2018.2\n#Problema: B2 para B10\n\nbinario = raw_input()\n\nvalor_decimal = 0\n\n\nfor i in range(len(binario) - 1, - 1, - 1):\n\t\n\tpotencia = 2 ** i\n\t\n\tdecimal = int(binario[i - 1]) * potencia\n\t\n\tprint '%s * %d = %d' % (binario[i - 1], potencia, decimal)\n\t\n\tif decimal > 0:\n\n\t\tvalor_decimal += decimal\n\t   \nprint '%s(2) = %d(10)' % (binario, valor_decimal)\n",
+      "name": "b2_b10.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "26358575e542ce2b473e3a04997ffa57",
+  "iid": 5792275934216192,
+  "activity_revision": "1.0.4"
+}

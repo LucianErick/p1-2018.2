@@ -1,0 +1,14 @@
+{
+  "files": {
+    "caixas_banco.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: Caixas em banco\n\nimport math\ncpf = int(raw_input())\n\ncaixa = 1 + int(25 * (cpf * math.pi % 1))\n\nif 1 <= caixa <= 8:\n\tmsg ='t\u00e9rreo'\n\tprint'Caixa %i, '% caixa + msg\n\t\nelif 9 <= caixa <= 20:\n\tmsg = 'primeiro andar'\n\tprint'Caixa %i, '% caixa + msg\n\t\nelif 21 <= caixa <= 25:\n    msg ='segundo andar'\n    print'Caixa %i, '% caixa + msg\n",
+      "name": "caixas_banco.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "b65d15f7d6026e9ab2ed97e90da040b2",
+  "iid": 5258752966000640,
+  "activity_revision": "1.0.0"
+}

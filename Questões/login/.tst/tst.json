@@ -1,0 +1,14 @@
+{
+  "files": {
+    "login.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: Verifica Login\n\nemail = str(raw_input())\nsenha = str(raw_input())\n\nadmin_email = 'admin@tst.ufcg.edu.br'\nsenha_admin = 'TstAdminProg1'\n\nif email == admin_email and senha == senha_admin:\n    print 'Login efetuado com sucesso!'\nelif email == admin_email and not senha == senha_admin:\n    print 'Senha inv\u00e1lida. Tente novamente.'\nelif not email == admin_email and senha == senha_admin:\n    print 'Email inv\u00e1lido.'\nelif not email == admin_email and not senha == senha_admin:\n    print 'Login inv\u00e1lido.'         \t\n",
+      "name": "login.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "04099d05a9b53bdb3c249a21d1b56a66",
+  "iid": 6445373509861376,
+  "activity_revision": "1.1.0"
+}

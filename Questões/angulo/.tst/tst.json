@@ -1,0 +1,18 @@
+{
+  "files": {
+    "angulo.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: Ciclo Trigonom\u00e9trico\n\nnumero = float(raw_input())\nangulo = numero % 360 \n\nif angulo >= 1 and 89 >= angulo:\n     quadrante = 'Quadrante 1'\n     print quadrante\nelif angulo >= 91 and 179 >= angulo:   \n     quadrante = 'Quadrante 2'\n     print quadrante\nelif angulo >= 181 and 269 >= angulo:\n     quadrante = 'Quadrante 3'\n     print quadrante\nelif angulo >= 271 and 359 >= angulo:\n     quadrante = 'Quadrante 4'\n     print quadrante\nelif angulo == 0 or angulo == 90 or angulo == 180 or angulo == 270 or angulo == 360: \n     quadrante = 'Sobre eixos'\n     print quadrante\n\n",
+      "name": "angulo.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 9,\n      \"pep8\": 0,\n      \"lloc\": 12,\n      \"vhalstead\": 165.67,\n      \"header\": 4\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "2c4659f7b801ebae317dde108a5578ff",
+  "iid": 5585801840689152,
+  "activity_revision": "1.0.3"
+}

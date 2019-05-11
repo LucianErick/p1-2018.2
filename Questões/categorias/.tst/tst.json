@@ -1,0 +1,14 @@
+{
+  "files": {
+    "categorias.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: Categorias\n\nnome = raw_input()\nidade = int(raw_input())\ncategoria = ' '\n\nif 5 > idade:\n     categoria = 'N\u00e3o pode competir'\n     print '%s, %d anos, %s.' % (nome, idade, categoria)\t  \nelif 7 >= idade >= 5:\n     categoria = 'Infantil A'\n     print '%s, %d anos, %s.' % (nome, idade, categoria)\nelif 10 >= idade >= 8:\n\t categoria = 'Infantil B'\n\t print '%s, %d anos, %s.' % (nome, idade, categoria)\nelif 13 >= idade >= 11:\n\t categoria = 'Juvenil A'\n\t print '%s, %d anos, %s.' % (nome, idade, categoria)\nelif 17 >= idade >= 14:\n     categoria = 'Juvenil B'\n     print '%s, %d anos, %s.' % (nome, idade, categoria)\nelif idade > 17:    \t\t\n\t categoria = 'Senior'\n\t print '%s, %d anos, %s.' % (nome, idade, categoria)    \t \n",
+      "name": "categorias.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "1ef8fbf5124cb0970f232d25d612849a",
+  "iid": 6335627297554432,
+  "activity_revision": "1.0.1"
+}

@@ -1,0 +1,19 @@
+{
+  "files": {
+    "public_tests.py": {
+      "category": "public",
+      "data": "import unittest\nimport sys\n\nundertest = __import__(sys.argv[-1].split(\".py\")[0])\ncalcula_seguro = getattr(undertest, 'calcula_seguro', None)\n\nclass PublicTests(unittest.TestCase):\n\n    def test_basico(self):\n        assert calcula_seguro(2000.0, [21, True, True, True, True, True, 'Misto']) == [120, \"Risco Alto\", 600.0]\n\n\nif __name__ == '__main__':\n    loader = unittest.TestLoader()\n    runner = unittest.TextTestRunner()\n    runner.run(loader.loadTestsFromModule(sys.modules[__name__]))\n",
+      "name": "public_tests.py"
+    },
+    "calcula_seguro_definitivo.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o I | 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: C\u00e1lculo de seguro\n\ndef calcula_seguro(valor, respostas):\n\n    pontos = 0\n    idade = respostas[0]\n    estado_civil = respostas[1]\n    portao = respostas[2]\n    area_risco = respostas[3]\n    moradia = respostas[4]\n    condicao_moradia = respostas[5]\n    uso_veiculo = respostas[6]\n    for i in range(len(respostas)):\n\n        if i == 0:\n\n            if idade <= 21:\n                pontos += 20\n\n            elif 22 <= idade <= 30:\n                pontos += 15\n\n            elif 31 <= idade <= 40:\n                pontos += 12\n\n            elif 41 <= idade <= 60:\n                pontos += 10\n\n            elif idade > 60:\n                pontos += 20\n\n        elif i == 1:\n\n            if estado_civil == True:\n                pontos += 10\n\n            elif estado_civil == False:\n                pontos += 20\n\n        elif i == 2:\n\n            if portao == True:\n                pontos += 20\n\n            elif portao == False:\n                pontos += 10\n\n        if i == 3:\n\n            if area_risco == True:\n                pontos += 20\n\n            elif area_risco == False:\n                pontos += 10\n\n        elif i == 4:\n\n            if moradia == True:\n                pontos += 20\n\n            elif moradia == False:\n                pontos += 10\n\n        elif i == 5:\n\n            if condicao_moradia == True:\n                pontos += 10\n\n            elif condicao_moradia == False:\n                pontos += 20\n\n        elif i == 6:\n\n            if uso_veiculo == 'Lazer':\n                pontos += 20\n\n            elif uso_veiculo == 'Misto':\n                pontos += 20\n\n            elif uso_veiculo == 'Trabalho':\n                pontos += 10\n\n    if pontos <= 80:\n        risco = 'Risco Baixo'\n        taxa = valor * 0.1\n\n    elif 80 < pontos <= 100:\n        risco = 'Risco Medio'\n        taxa = valor * 0.2\n\n    elif pontos > 100:\n        risco = 'Risco Alto'\n        taxa = valor * 0.3\n\n    return [pontos, risco, taxa]\n",
+      "name": "calcula_seguro_definitivo.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "2253fc95bd4dc28145ca5de30653d9a9",
+  "iid": 5794247424868352,
+  "activity_revision": "1.0.0"
+}

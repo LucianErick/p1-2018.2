@@ -1,0 +1,18 @@
+{
+  "files": {
+    "inss.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: Custo I\u01f8SS\n\nsalario = float(raw_input())\n\n#Calculando o INSS a ser pago pelo empregado\nif salario <= 1317.07:\n    inss_funcionario = salario * 0.08\n    \nelif 1317.07 < salario <= 2195.12:\n    inss_funcionario = salario * 0.09\n    \nelse:\n    inss_funcionario = salario * 0.11\n\n#Calculando o INSS a ser pago pelo empregador\n\ninss_empregador = salario * 0.12 \n\nprint 'O valor da contribui\u00e7\u00e3o do INSS a ser pago pelo empregador \u00e9 de R$ %.2f' % inss_empregador\n\nprint 'O valor da contribui\u00e7\u00e3o do INSS a ser pago pelo empregado \u00e9 de R$ %.2f' % inss_funcionario\n",
+      "name": "inss.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 3,\n      \"pep8\": 2,\n      \"lloc\": 10,\n      \"vhalstead\": 93.77,\n      \"header\": 3\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "7752175276ed3f97816d1f50dd09e7f3",
+  "iid": 5527655902347264,
+  "activity_revision": "1.0.5"
+}

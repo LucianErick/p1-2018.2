@@ -1,0 +1,14 @@
+{
+  "files": {
+    "pagamento_iptu.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: IPTU escolhendo forma de pagamento\n \narea = float(raw_input())\nmetro_quadrado = float(raw_input())\npagamento = raw_input()\n\niptu = area * metro_quadrado \n\ndesconto_a_vista = iptu * 0.8\ndesconto_2x = iptu * 0.9\nparcela_2x = desconto_2x / 2\ndesconto_3x = iptu * 0.95\nparcela_3x = desconto_3x / 3\n\nif pagamento == 'vista':\n   print 'Total: R$ %.2f' % desconto_a_vista\t  \n\nelif pagamento == '2x':\n   print 'Total: R$ %.2f. Parcelas: R$ %.2f' % (desconto_2x, parcela_2x) \n\nelif pagamento == '3x':\n   print 'Total: R$ %.2f. Parcelas: R$ %.2f' % (desconto_3x, parcela_3x) \n",
+      "name": "pagamento_iptu.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "e20d5e4f140f9b684c865909347aa15d",
+  "iid": 6664286516543488,
+  "activity_revision": "2.0.0"
+}

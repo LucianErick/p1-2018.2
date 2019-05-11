@@ -1,0 +1,14 @@
+{
+  "files": {
+    "alocacao.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: Aloca\u00e7\u00e3o MTs\n\nnumero = int(raw_input())\n\nif 10 >= numero >= 1:\n   sala = 'LCC1-1'\nelif 20 >= numero >= 11:\n   sala = 'LCC1-2'\nelif 30 >= numero >= 21:    \n   sala = 'LCC2-1'\nelif 40 >= numero >= 31 :\n   sala = 'LCC2-2'\nelse: \n   sala = 'Aluno inexistente.'     \n\nprint sala\n",
+      "name": "alocacao.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "ca95cc67e4ab82fb6f8c748f81c07b6e",
+  "iid": 5864792715689984,
+  "activity_revision": "1.0.0"
+}

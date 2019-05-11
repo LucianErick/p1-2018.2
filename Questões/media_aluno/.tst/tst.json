@@ -1,0 +1,19 @@
+{
+  "files": {
+    "media_aluno.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: M\u00e9dia do aluno\n\nnota1 = float(raw_input())\nnota2 = float(raw_input())\nnota3 = float(raw_input())\n\nmedia = (nota1 * 0.2) + (nota2 * 0.3) + (nota3 * 0.5)\n \nprint media\n",
+      "name": "media_aluno.py"
+    },
+    "media_aluno1.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: M\u00e9dia do aluno\n\nnota1 = float(raw_input())\nnota2 = float(raw_input())\nnota3 = float(raw_input())\n\nmedia = (nota1 * 0.2) + (nota2 * 0.3) + (nota3 * 0.5)\n \nprint media\n",
+      "name": "media_aluno1.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "dc3ea070fd07902353184022ab85a5b1",
+  "iid": 5590013307781120,
+  "activity_revision": "1.1.1"
+}

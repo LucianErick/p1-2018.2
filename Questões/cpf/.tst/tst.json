@@ -1,0 +1,19 @@
+{
+  "files": {
+    "cpf1.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: CPF\n\nparte1 = raw_input()\nparte2 = raw_input()\nparte3 = raw_input()\n\ndigito_verificador = int(parte3[0]) + int(parte3[1]) + int(parte3[2])\n\nprint '%s.%s.%s-%i' % (parte1, parte2, parte3, digito_verificador)\n",
+      "name": "cpf1.py"
+    },
+    "cpf.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: CPF\n\nparte1 = int(raw_input())\nparte2 = int(raw_input())\nparte3 = raw_input()\n\ndigito_verificador = int(parte3[0]) + int(parte3[1]) + int(parte3[2])\n\nprint '%d.%d.%s-%02d' % (parte1, parte2, parte3, digito_verificador)\n",
+      "name": "cpf.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "3d82bfab2ae6d476cdea678fbde87d5d",
+  "iid": 5027451109376000,
+  "activity_revision": "1.0.0"
+}

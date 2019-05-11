@@ -1,0 +1,14 @@
+{
+  "files": {
+    "dobro.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Dobro\n\nnumero = int(raw_input())\n\ndobro = numero * 2\n\nprint dobro\n",
+      "name": "dobro.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "41a59ba4919a68b5402cec05d5162a4a",
+  "iid": 4525392249487360,
+  "activity_revision": "1.1.1"
+}

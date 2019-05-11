@@ -1,0 +1,14 @@
+{
+  "files": {
+    "reajuste_salario_minimo.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: Percentual de reajuste do sal\u00e1rio m\u00ednimo\n\nvalor_atual = float(raw_input('Valor atual? '))\nnovo_valor = float(raw_input('Novo valor? '))\n\npercentual_reajuste = ((novo_valor - valor_atual) / valor_atual) * 100\nprint 'Reajuste de %.1f%%' % percentual_reajuste   \n",
+      "name": "reajuste_salario_minimo.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "66bd0324ee4a2cc39c43f4c0d02de179",
+  "iid": 5442580250624000,
+  "activity_revision": "1.1.0"
+}

@@ -1,0 +1,18 @@
+{
+  "files": {
+    "caixa_preta.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o I | 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Caixa Preta\n\n\nquantidade = int(raw_input())\nmedicoes = ''\n# Quando garantia positivo for igual a 0, ele \u00e9 um numero positivo, quando \u00e9 1, negativo \n\ngarantia_positivo = 0\nfor m in range(quantidade):\n\t medicoes = raw_input().split()\n\t \n\t peso = int(medicoes[0])\n\t combustivel = int(medicoes[1])\n\t altitude = int(medicoes[2])\n\t \n\t if garantia_positivo == 0:\n\t\t\n\t\tif peso < 0:\n\t\t\tprint'dado inconsistente. peso negativo.'\n\t\t\t\t\n\t\tif combustivel < 0:\n\t\t\tprint'dado inconsistente. combust\u00edvel negativo.'\n\t\t    \n\t\tif altitude < 0:\n\t\t\tprint'dado inconsistente. altitude negativa.'\n\t\t    \n\t\t    \n\t if garantia_positivo == 0:\n\t\t \n\t\t soma = 0\n\t\t for i in medicoes:\n\t\t\t if int(i) >= 0:\n\t\t\t\tsoma += 1\n\t\t\t \n\t\t\t else:\n\t\t\t\t \n\t\t\t\t garantia_positivo = 1\n                 \n\t\t\t\t break\n\t\t\t\t \nprint'%i dados v\u00e1lidos.' % soma\n",
+      "name": "caixa_preta.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 11,\n      \"pep8\": 0,\n      \"lloc\": 21,\n      \"vhalstead\": 117.21,\n      \"header\": 1\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "69f3699e7f04f59550533363e58f55be",
+  "iid": 4862276163076096,
+  "activity_revision": "1.1.1"
+}

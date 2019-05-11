@@ -1,0 +1,14 @@
+{
+  "files": {
+    "callcenter.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#UFCG - Prorama\u00e7\u00e3o 1\n\nsegunda = int(raw_input())\nterca = int(raw_input())\nquarta = int(raw_input())\nquinta = int(raw_input())\nsexta = int(raw_input())\nsabado = int(raw_input())\ndomingo = int(raw_input())\n\ntotal = segunda + terca + quarta + quinta + sexta + sabado + domingo\nmedia = (total / 7.0)\n\nprint 'Total: %i' % total \nprint 'M\u00e9dia: %.2f' % media \n",
+      "name": "callcenter.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "61015a4029fc38b981accf2c13e28d9c",
+  "iid": 5691235637395456,
+  "activity_revision": "1.0.3"
+}

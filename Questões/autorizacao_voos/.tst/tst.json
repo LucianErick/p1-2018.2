@@ -1,0 +1,18 @@
+{
+  "files": {
+    "autoriazcao_voos.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1 | 2018.2\n#Problema: Autoriza\u00e7\u00e3o Voos\n\ndisponivel = int(raw_input())\navioes = int(raw_input())\n\ndecolados = 0\n\nfor i in range(avioes):\n\t\n\tnecessario = int(raw_input())\n\t\n\tif necessario < disponivel:\n\t   \n\t   disponivel -= necessario\n\t   \n\t   decolados += 1\n\t   \nprint '%d voo(s) autorizados.' % decolados\t   \t\n",
+      "name": "autoriazcao_voos.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 3,\n      \"pep8\": 0,\n      \"lloc\": 9,\n      \"vhalstead\": 51.89,\n      \"header\": 3\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "a80918f9772dec4069ffd9751b329497",
+  "iid": 5280761569607680,
+  "activity_revision": "1.1.4"
+}

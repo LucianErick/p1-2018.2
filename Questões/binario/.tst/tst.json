@@ -1,0 +1,18 @@
+{
+  "files": {
+    "binario.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Convers\u00e3o de N\u00famero na Base 2 para a Base 10\n\nbinario = raw_input()\nn1 = ''\nproduto = 0\nsoma = 0\nresultado_soma = 0\nnumero_binario = 0\nnumero_decimal = 0\n\nfor b in binario:\n\tproduto += 1\n\tnumero_1 = b\n\tb = int(b)\n\tnumero_decimal = b * 2 ** (len(binario) - produto)\n\tb = 2 ** (len(binario) - produto)\n\tprint numero_1 + ' * ' + str(b) + ' = ' + str(numero_decimal)\n\nfor numero_binario in binario:\n\tsoma += 1\n\tnumero_binario = int(numero_binario)\n\tnumero_binario = numero_binario * 2 ** (len(binario) - soma)\n\tresultado_soma += numero_binario\n\t \nprint binario + '(2)' + ' = ' + str(resultado_soma) + '(10)'\t \n",
+      "name": "binario.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 2,\n      \"pep8\": 0,\n      \"lloc\": 9,\n      \"vhalstead\": 89.21,\n      \"header\": 3\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "dd153e2c40831b2814f57479ac233703",
+  "iid": 5270984143667200,
+  "activity_revision": "1.0.4"
+}

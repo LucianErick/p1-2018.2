@@ -1,0 +1,14 @@
+{
+  "files": {
+    "parte_fracionaria.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Parte fracion\u00e1ria\n\nnumero = float(raw_input())\n\nparte_fracionaria = numero % 1\n\nprint parte_fracionaria\n",
+      "name": "parte_fracionaria.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "688090225d9e365a7b0333f3818781ba",
+  "iid": 5063450015301632,
+  "activity_revision": "1.1.0"
+}

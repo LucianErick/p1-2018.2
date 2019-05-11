@@ -1,0 +1,14 @@
+{
+  "files": {
+    "calcula_nome.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Calcula Nome\n\nnome = raw_input('Nome? ')\nletra = float(raw_input('Letra? R$ '))\n\norcamento = len(nome) * letra\n\nprint 'Or\u00e7amento: R$ %.1f' % orcamento \n",
+      "name": "calcula_nome.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "05f5e94592f491ec12652c8f8827187f",
+  "iid": 5288650350788608,
+  "activity_revision": "1.0.0"
+}

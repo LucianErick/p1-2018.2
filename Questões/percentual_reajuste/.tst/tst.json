@@ -1,0 +1,14 @@
+{
+  "files": {
+    "percentual_reajuste.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Percentual de reajuste\n\natual = float(raw_input('Valor atual? '))\nnovo = float(raw_input('Novo valor? '))\n\nreajuste = ((novo - atual) / atual) * 100\n\nprint 'Reajuste de %.1f%%' % reajuste \n",
+      "name": "percentual_reajuste.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "3973df4827f02d051a334828352b7418",
+  "iid": 5342768549330944,
+  "activity_revision": "1.1.0"
+}

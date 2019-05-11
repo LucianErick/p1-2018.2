@@ -1,0 +1,14 @@
+{
+  "files": {
+    "mruv.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: MRUV\n\ns0 = float(raw_input('Posi\u00e7\u00e3o inicial? '))\nv0 = float(raw_input('Velocidade inicial? '))\nt = float(raw_input('Tempo? '))\na = float(raw_input('Acelera\u00e7\u00e3o? '))\n\nv = v0 + (a * t)\ns = s0 + (v0 * t) + (a * t ** 2 / 2)\nvm = (s - s0) / t\n\nprint \nprint 'Dados da quest\u00e3o'\nprint '================'\nprint '   Posi\u00e7\u00e3o inicial: %.2f m' % s0\nprint 'Velocidade inicial: %.2f m/s' % v0 \nprint '        Acelera\u00e7\u00e3o: %.2f m/s2' % a\nprint '             Tempo: %.2f s' % t\nprint '  Velocidade final: %.2f m/s' % v\nprint '  Velocidade m\u00e9dia: %.2f m/s' % vm\nprint '     Posi\u00e7\u00e3o final: %.2f m' % s\n\n\n",
+      "name": "mruv.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "69c4508a0a37fad6576c04933ffe41b1",
+  "iid": 6161166883618816,
+  "activity_revision": "1.1.0"
+}

@@ -1,0 +1,14 @@
+{
+  "files": {
+    "assembleia.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: Assembleia\n\nprofessores = int(raw_input())\nvotos_sim = 0\nvotos_nao = 0\nvotos_abstencao = 0\n\nfor votos in range(professores):\n\tvoto = raw_input()\n\tif voto == 'sim':\n\t   votos_sim += 1\n\tif voto == 'n\u00e3o':\t\n\t   votos_nao += 1\n\tif voto == 'absten\u00e7\u00e3o':\n\t   votos_abstencao += 1\n\t   \nif (votos_sim + votos_nao) <= professores / 2:\n\tprint 'Quorum insuficiente.'\n\nelif votos_sim > votos_nao and votos_sim > votos_abstencao:\n\tprint 'Decis\u00e3o a favor da greve.'\n\t\t\t   \t\t\nelif votos_nao > votos_sim and votos_nao > votos_abstencao:\n\tprint 'Decis\u00e3o contr\u00e1ria \u00e0 greve.'\n\t\t\t\t   \nelif votos_sim == votos_nao:\n    print 'Empate.'\t\t\t   \t\t\n",
+      "name": "assembleia.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "850a9c02dccca02a5d04cb2795dd91a8",
+  "iid": 5288280580947968,
+  "activity_revision": "1.0.3"
+}

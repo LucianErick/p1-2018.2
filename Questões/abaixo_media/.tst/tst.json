@@ -1,0 +1,14 @@
+{
+  "files": {
+    "abaixo_media.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o I | 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Abaixo da M\u00e9dia\n\nnota_total = 0\nnumero_notas = 0\nnotas = []\n\nwhile True:\n\t\n\tnota = raw_input()\n\t\n\tif nota != 'fim':\n\t   \n\t   nota = int(nota)  \t\n\t   notas.append(nota)\n\t\n\telif nota == 'fim':\n\t\n\t     break\n    \n\tnota_total += nota\n\tnumero_notas += 1\n\n\nmedia = float(nota_total) / numero_notas\nprint '%.2f' % media\n\nfor i in range(0, len(notas)):\n\t\n\tif notas[i] < media:\n\t   \t\n\t   print (i + 1), notas[i]\n",
+      "name": "abaixo_media.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "2d9ddaeed945542098f88ed016f6ffbb",
+  "iid": 5847223329882112,
+  "activity_revision": "1.0.1"
+}

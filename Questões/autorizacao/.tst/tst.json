@@ -1,0 +1,18 @@
+{
+  "files": {
+    "autorizacao.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Autoriza\u00e7\u00e3o voos\n\ntempo_disponivel = int(raw_input())\navioes = int(raw_input())\nautorizado = 0\n\nfor i in range(avioes):\n   tempo_necessario = int(raw_input())\n \n   if tempo_necessario < tempo_disponivel:\n\t   autorizado += 1\n\t   tempo_disponivel - tempo_necessario \n\t   \n   if tempo_necessario > tempo_disponivel:\n\t   autorizado += 0  \n\nprint  '%d voo(s) autorizados.' % autorizado\n",
+      "name": "autorizacao.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 3,\n      \"pep8\": 0,\n      \"lloc\": 9,\n      \"vhalstead\": 51.89,\n      \"header\": 3\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "8fe77a5572dcf742e5fa76d5dac4e6df",
+  "iid": 5832046945501184,
+  "activity_revision": "1.1.4"
+}

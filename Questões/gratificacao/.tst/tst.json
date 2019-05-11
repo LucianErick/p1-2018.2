@@ -1,0 +1,23 @@
+{
+  "files": {
+    "natalina.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: Gratificacao natalina\n\ncodigo = int(raw_input())\n\nif codigo == 1:\n   salario = 25000.0\n   print 'Dever\u00e1 receber em dezembro R$ %.2f.' % salario \n   \nif codigo == 2:\n   salario = 15000.0\n   print 'Dever\u00e1 receber em dezembro R$ %.2f.' % salario \n\nfaltas = int(raw_input())\n\nif codigo == 3 and faltas == 0:\n   gratificacao =  500.0\n   salario = 8000.0 + gratificacao   \n   print 'Valor da gratifica\u00e7\u00e3o R$ %.2f.' % gratificacao \n   print 'Dever\u00e1 receber em dezembro R$ %.2f.' % salario\n \nif codigo == 3 and faltas > 0:\n   gratificacao = (235 - faltas) * 2.0\n   salario = 8000.0 + gratificacao\n   print 'Valor da gratifica\u00e7\u00e3o R$ %.2f.' % gratificacao \n   print 'Dever\u00e1 receber em dezembro R$ %.2f.' % salario\n   \nif codigo == 4 and faltas == 0:\n   gratificacao = 300.0\n   salario = 5000.0 + gratificacao\n   print 'Valor da gratifica\u00e7\u00e3o R$ %.2f.' % gratificacao \n   print 'Dever\u00e1 receber em dezembro R$ %.2f.' % salario\n\nif codigo == 4 and faltas > 0:\n   gratificacao = (235 - faltas) * 1.0\n   salario = 5000.0 + gratificacao\n   print 'Valor da gratifica\u00e7\u00e3o R$ %.2f.' % gratificacao \n   print 'Dever\u00e1 receber em dezembro R$ %.2f.' % salario\n\nif codigo == 5 and faltas == 0:\n   gratificacao = 200.0\n   salario = 2800.0 + gratificacao\n   print 'Valor da gratifica\u00e7\u00e3o R$ %.2f.' % gratificacao \n   print 'Dever\u00e1 receber em dezembro R$ %.2f.' % salario\t\n\nif codigo == 5 and faltas > 0:\n   gratificacao = (235 - faltas) * 0.70\n   salario = 2800.0 + gratificacao \n   print 'Valor da gratifica\u00e7\u00e3o R$ %.2f.' % gratificacao \n   print 'Dever\u00e1 receber em dezembro R$ %.2f.' % salario    \n    \t\n",
+      "name": "natalina.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 7,\n      \"pep8\": 0,\n      \"lloc\": 25,\n      \"vhalstead\": 129.66,\n      \"header\": 3\n    }\n  ]\n}"
+    },
+    "gratificacao.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: Gratificacao natalina\n\ncodigo = raw_input()\nfaltas = int(raw_input())\n\nsalario = 0.0\ngratificacao = 0.0\n\nif codigo == '1':\n   salario = 25000.0\n   print 'Dever\u00e1 receber em dezembro R$ %.2f.' % salario \nif codigo == '2':\n   salario = 15000.0\n   print 'Dever\u00e1 receber em dezembro R$ %.2f.' % salario \n\nif codigo == '3'and faltas == 0:\n   gratificacao =  500.0\n   salario = 8500.0   \n   print 'Valor da gratifica\u00e7\u00e3o R$ %.2f.' % gratificacao \n   print 'Dever\u00e1 receber em dezembro R$ %.2f.' % salario\n \nif codigo == '3' and faltas > 0:\n   gratificacao = (235 - faltas) * 2.0\n   salario = 8000.0 + gratificacao\n   print 'Valor da gratifica\u00e7\u00e3o R$ %.2f.' % gratificacao \n   print 'Dever\u00e1 receber em dezembro R$ %.2f.' % salario\n   \nif codigo == '4' and faltas == 0:\n   gratificacao = 300.0\n   salario = 5300.0\n   print 'Valor da gratifica\u00e7\u00e3o R$ %.2f.' % gratificacao \n   print 'Dever\u00e1 receber em dezembro R$ %.2f.' % salario\n\nif codigo == '4' and faltas > 0:\n   gratificacao = (235 - faltas) * 1.0\n   salario = 5000.0 + gratificacao\n   print 'Valor da gratifica\u00e7\u00e3o R$ %.2f.' % gratificacao \n   print 'Dever\u00e1 receber em dezembro R$ %.2f.' % salario\n\n\nif codigo == '5' and faltas == 0:\n   gratificacao = 200.0\n   salario = 3000.0 \n   print 'Valor da gratifica\u00e7\u00e3o R$ %.2f.' % gratificacao \n   print 'Dever\u00e1 receber em dezembro R$ %.2f.' % salario\t\n\n\nif codigo == '5' and faltas > 0:\n   gratificacao = (235 - faltas) * 0.70\n   salario = 2800.0 + gratificacao \n   print 'Valor da gratifica\u00e7\u00e3o R$ %.2f.' % gratificacao \n   print 'Dever\u00e1 receber em dezembro R$ %.2f.' % salario    \n    \t\n\t\t\t\t\t\t\t\n\n",
+      "name": "gratificacao.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "adbe57fd57e5cc1a29bacd35aaab1fe8",
+  "iid": 5888543079530496,
+  "activity_revision": "1.0.2"
+}

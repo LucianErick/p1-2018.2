@@ -1,0 +1,18 @@
+{
+  "files": {
+    "limpeza.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: Limpeza\n\nservico = int(raw_input())\n\nif servico == 3: \n\tvalor =  50.0\n\tprint 'R$ %d,00' % valor\n    \nelif servico == 1 or servico == 2:\n   \n\ttamanho = int(raw_input())\t   \n \n\tif servico == 1:\n\t\tpreco = 80 * tamanho    \n\t\n\t\tif servico == 1 and preco >= 200:\n\t\t\tprint 'R$ %d,00' % preco  \n\t\t\tprint 'Brinde!'\n\t\n\t\telif servico == 1 and preco < 200:\n\t\t\tprint 'R$ %d,00' % preco\n\t\n\telif servico == 2:\n\t\tpreco = 50 * tamanho\n\n\t\tif servico == 2 and preco >= 200:\n\t\t\tprint 'R$ %d,00' % preco\n\t\t\tprint 'Brinde!'\n\t\t\n\t\telif servico == 2 and preco < 200:\n\t\t\tprint 'R$ %d,00' % preco       \n\n",
+      "name": "limpeza.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 4,\n      \"pep8\": 0,\n      \"lloc\": 12,\n      \"vhalstead\": 66.61,\n      \"header\": 2\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "323439987a15db8829c8c8f8c2a8f2f3",
+  "iid": 4863283249020928,
+  "activity_revision": "1.0.3"
+}

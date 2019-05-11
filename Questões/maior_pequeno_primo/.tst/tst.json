@@ -1,0 +1,14 @@
+{
+  "files": {
+    "maior_pequeno_primo.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: Maior pequeno primo\n\nnumero = int(raw_input())\n\nif numero / 7 and numero % 7 == 0:\n   K = numero / 7\n   print '7 * %d = %d' % (K, numero)\n\nelif numero / 5 and numero % 5 == 0:\n   K = numero / 5\n   print '5 * %d = %d' % (K, numero)\n\nelif numero / 3 and numero % 3 == 0:\n   K = numero / 3\n   print '3 * %d = %d' % (K, numero)\n   \nelif numero / 2 and numero % 2 == 0:\n   K = numero / 2\n   print '2 * %d = %d' % (K, numero)\n      \nelse:\n   print '%d n\u00e3o tem fatores primos menores que 10' % numero    \n",
+      "name": "maior_pequeno_primo.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "1db9fdc29acea6c131288b51475421c4",
+  "iid": 5040700026519552,
+  "activity_revision": "1.1.0"
+}

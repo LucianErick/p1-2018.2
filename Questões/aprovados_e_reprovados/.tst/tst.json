@@ -1,0 +1,18 @@
+{
+  "files": {
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 5,\n      \"pep8\": 0,\n      \"lloc\": 18,\n      \"vhalstead\": 165.67,\n      \"header\": 1\n    }\n  ]\n}"
+    },
+    "aprovados_e_reprovados.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: Aprovados e Reprovados\n\nalunos = int(raw_input())\naprovados = 0\nreprovados = 0\nnota_apro = 0\nnota_repro = 0\n\nfor num in range(alunos):\n    nota = float(raw_input())\n    if nota >= 7.0:\n        aprovados += 1\n        nota_apro += nota\n        \n    else:\n        reprovados +=1\n        nota_repro += nota\n        \nprint 'Reprovados: %d' % reprovados\n\nif reprovados > 0:\n    media_repro = nota_repro / reprovados \n    print 'M\u00e9dia: %.1f' % media_repro \n    \nprint ''\n    \nprint 'Aprovados: %d' % aprovados\n\nif aprovados > 0:\n    media_apro = nota_apro / aprovados \n    print 'M\u00e9dia: %.1f' % media_apro\n",
+      "name": "aprovados_e_reprovados.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "5e9fc6e981aaad6eec0d982b60b0c902",
+  "iid": 5864535420305408,
+  "activity_revision": "1.0.2"
+}

@@ -1,0 +1,18 @@
+{
+  "files": {
+    "depois_13.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: Depois do 13\n\nnumero_1 = int(raw_input())\nnumero_2 = int(raw_input())\nnumero_3 = int(raw_input())\n\nsoma = numero_1 + numero_2 + numero_3\n\nif numero_1 != 13 and numero_2 != 13 and numero_3 != 13 and soma != 13:\n     print soma\n   \nelif numero_1 == 13:\n     print 0   \n\nelif numero_1 != 13 and numero_2 == 13:\n\t print numero_1\n\nelif numero_1 != 13 and numero_2 != 13 and (numero_1 + numero_2) != 13 and numero_3 == 13:\n\t print numero_1 + numero_2  \n\t \nelif numero_1 != 13 and numero_2 != 13 and (numero_1 + numero_2) == 13 and numero_3 == 13:\n     print 0\n     \nelif numero_1 != 13 and numero_2 != 13 and numero_3 != 13 and soma == 13:\n\t print 0\t \t \t \t    \n",
+      "name": "depois_13.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 8,\n      \"pep8\": 0,\n      \"lloc\": 17,\n      \"vhalstead\": 107.55,\n      \"header\": 3\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "e6adb4586138e2d40dd2d988b3ef07c9",
+  "iid": 5872079798796288,
+  "activity_revision": "1.1.3"
+}

@@ -1,0 +1,14 @@
+{
+  "files": {
+    "quadrado_circunferencia.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Quadrado na circunfer\u00eancia\n\nimport math\n\nraio = float(raw_input())\nlado = raio * math.sqrt(2.0)\n\ncircunferencia = math.pi * raio ** 2\nquadrado = lado ** 2\n\narea_nao_comum = circunferencia - quadrado\n\nprint '\u00c1rea n\u00e3o comum: %.5f' % area_nao_comum\n",
+      "name": "quadrado_circunferencia.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "882f051cf0b4c7bcf1b2ca9e7b0535dc",
+  "iid": 6399116124880896,
+  "activity_revision": "1.1.1"
+}

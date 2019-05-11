@@ -1,0 +1,19 @@
+{
+  "files": {
+    "csf.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Ana Carolina Chaves de Vasconcelos\n\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: Ci\u00eancia sem fronteiras\n\nnota_enem = float(raw_input())\ncreditos = int(raw_input())\n\ncondicao_creditos = 374.4 >= creditos >= 83.2\n\ncondicao_enem = nota_enem >= 600\n\nif not condicao_enem and condicao_creditos:\n   \n   condicao = 'Condi\u00e7\u00e3o ENEM n\u00e3o satisfeita.'\n   print condicao\n\nelif condicao_enem and not condicao_creditos:\n   condicao = 'Condi\u00e7\u00e3o CR\u00c9DITOS n\u00e3o satisfeita.'\n   print condicao\n\nelif not condicao_enem and not condicao_creditos:\n   condicao = 'Nenhuma condi\u00e7\u00e3o satisfeita.'\n   print condicao\t     \n\nelif condicao_enem and condicao_creditos:\n   condicao = 'Todas as condi\u00e7\u00f5es satisfeitas.'\n   print condicao\n",
+      "name": "csf.py"
+    },
+    "ciencia.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Ana Carolina Chaves\n#Programa\u00e7\u00e3o 1\n#118110388\n\nnota_enem = float(raw_input())\ncreditos = int(raw_input())\n\ncondicao_creditos = 374.4 >= creditos >= 83.2\ncondicao_enem = nota_enem >= 600.0\n\nif not condicao_enem and condicao_creditos:\n   condicao = 'Condi\u00e7\u00e3o ENEM n\u00e3o satisfeita.'\n   print condicao\nelif condicao_enem and not condicao_creditos:\n   condicao = 'Condi\u00e7\u00e3o CR\u00c9DITOS n\u00e3o satisfeita.'\n   print condicao\nelif not condicao_enem and not condicao_creditos:\n   condicao = 'Nenhuma condi\u00e7\u00e3o satisfeita.'\n   print condicao\t     \nelif condicao_enem and condicao_creditos:\n   condicao = 'Todas as condi\u00e7\u00f5es satisfeitas.'\n   print condicao\n",
+      "name": "ciencia.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "416ffc4d7a16ea7aaac49578d18e389b",
+  "iid": 5251324534849536,
+  "activity_revision": "1.0.1"
+}

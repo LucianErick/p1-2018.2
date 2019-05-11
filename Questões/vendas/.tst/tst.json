@@ -1,0 +1,24 @@
+{
+  "files": {
+    "vendas1.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Vendas\n\nvendas_da_loja = int(raw_input())\nvendas_por_teresa = int(raw_input())\nvendas_por_carla = int(raw_input())\n\nvendas_por_joaquim = vendas_da_loja - (vendas_por_carla + vendas_por_teresa)\n\nvenda_total = (vendas_por_teresa + vendas_por_joaquim + vendas_por_carla)\n\npercentual_carla = (vendas_por_carla * 100.0 / venda_total)\npercentual_teresa = (vendas_por_teresa * 100.0 / venda_total)\npercentual_joaquim = (vendas_por_joaquim * 100.0 / venda_total)\n\nprint 'Teresa vendeu %d (de %d) brinquedos. (%.2f%%)' % (vendas_por_teresa, venda_total,percentual_teresa)\nprint 'Joaquim vendeu %d (de %d) brinquedos. (%.2f%%)' % (vendas_por_joaquim, venda_total,percentual_joaquim)\nprint 'Carla vendeu %d (de %d) brinquedos. (%.2f%%)' % (vendas_por_carla,venda_total,percentual_carla)\n",
+      "name": "vendas1.py"
+    },
+    "aaaaaaa.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Vendas\n\nloja = int(raw_input())\nteresa = int(raw_input()) \ncarla = int(raw_input())\n\njoaquim = loja - (teresa + carla)\n\nperc_teresa = (teresa * 100.0) / loja \nperc_joaquim = (joaquim * 100.0) / loja\nperc_carla = (carla * 100.0) / loja\n\nprint 'Teresa vendeu %i (de %i) brinquedos. (%.2f%%)' % (teresa, loja, perc_teresa)\nprint 'Joaquim vendeu %i (de %i) brinquedos. (%.2f%%)' % (joaquim, loja, perc_joaquim)\nprint 'Carla vendeu %i (de %i) brinquedos. (%.2f%%)' % (carla, loja, perc_carla)\n",
+      "name": "aaaaaaa.py"
+    },
+    "vendas.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Vendas\n\nloja = int(raw_input())\nteresa = int(raw_input()) \ncarla = int(raw_input())\n\njoaquim = loja - (teresa + carla)\n\nperc_teresa = teresa * 100.0 / loja \nperc_joaquim = joaquim * 100.0 / loja\nperc_carla = carla * 100.0 / loja\n\nprint 'Teresa vendeu %i (de %i) brinquedos. (%.2f%%)' % (teresa, loja, perc_teresa)\nprint 'Joaquim vendeu %i (de %i) brinquedos. (%.2f%%)' % (joaquim, loja, perc_joaquim)\nprint 'Carla vendeu %i (de %i) brinquedos. (%.2f%%)' % (carla, loja, perc_carla)\n",
+      "name": "vendas.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "a7da59a8373349751a56e26bbb3f557a",
+  "iid": 6224294413598720,
+  "activity_revision": "1.0.0"
+}

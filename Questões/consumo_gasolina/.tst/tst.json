@@ -1,0 +1,14 @@
+{
+  "files": {
+    "consumo_gasolina.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Consumo de gasolina\n\nposicao_inicial = float(raw_input())\nlitros_inicial = float(raw_input())\nposicao_final = float(raw_input())\nlitros_final = float(raw_input())\n\ndistancia = posicao_final - posicao_inicial\ngasolina_gasta = litros_inicial - litros_final\n\nconsumo = distancia / gasolina_gasta\n\nprint '%.1f' % consumo\n\n",
+      "name": "consumo_gasolina.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "fc82babc96b3e6b3d6c7c77ad8e77843",
+  "iid": 6414550257631232,
+  "activity_revision": "1.0.0"
+}

@@ -1,0 +1,23 @@
+{
+  "files": {
+    "corredor.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Ana Carolina Chaves de Vasconcelos\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: Classifica Corredor\n\ndistancia = float(raw_input()) \ntempo = float(raw_input())\n\nvelocidade = distancia / tempo\n\nif velocidade < 10:\n    tipo_de_corredor = 'Corredor amador.'\n    print 'Velocidade: %.1fkm/h. %s' % (velocidade, tipo_de_corredor)\n   \nelif 15 >= velocidade >= 10: \n    tipo_de_corredor = 'Corredor aspirante.'\n    print 'Velocidade: %.1fkm/h. %s' % (velocidade, tipo_de_corredor)\n    \nelif velocidade > 15: \n    tipo_de_corredor = 'Corredor profissional.'\n    print 'Velocidade: %.1fkm/h. %s' % (velocidade, tipo_de_corredor)\n  \n",
+      "name": "corredor.py"
+    },
+    "classifica.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Ana Carolina Chaves\n#Programa\u00e7\u00e3o 1\n#118110388\n\ndistancia = float(raw_input()) \ntempo = float(raw_input())\n\nvelocidade = distancia / tempo\n\nif velocidade < 10:\n    tipo_de_corredor = 'Corredor amador.'\n    print 'Velocidade: %.1fkm/h. %s' % (velocidade, tipo_de_corredor)\n   \nelif 15 >= velocidade >= 10: \n    tipo_de_corredor = 'Corredor aspirante.'\n    print 'Velocidade: %.1fkm/h. %s' % (velocidade, tipo_de_corredor)\n    \nelif velocidade > 15: \n    tipo_de_corredor = 'Corredor profissional.'\n    print 'Velocidade: %.1fkm/h. %s' % (velocidade, tipo_de_corredor)\n",
+      "name": "classifica.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 3,\n      \"pep8\": 0,\n      \"lloc\": 10,\n      \"vhalstead\": 41.51,\n      \"header\": 4\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "7a2197fd385e2662ff2e70781d9ab562",
+  "iid": 6121794381545472,
+  "activity_revision": "1.0.6"
+}

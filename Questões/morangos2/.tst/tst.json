@@ -1,0 +1,14 @@
+{
+  "files": {
+    "morangos.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o I 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Caixas com Morangos \n\nmorangos = int(raw_input())\n\ncaixas = morangos / 400\n\nresto = morangos % 400\n\nperdidos = resto * 100.0 / morangos\n\nprint 'Ser\u00e3o necess\u00e1rias %i caixa(s) para embalar os morangos.' % caixas\nprint '%.1f%% dos morangos ser\u00e3o perdidos.' % perdidos\n \n",
+      "name": "morangos.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "d4cda6eacb3a6fc49aee3e0f753018ee",
+  "iid": 6745377361362944,
+  "activity_revision": "1.0.0"
+}

@@ -1,0 +1,18 @@
+{
+  "files": {
+    "calculadora.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o I | 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Calculadora\n\nwhile True:\n\n    dados = raw_input().split(' ')\n\n    tipo = dados[0]\n\n    if tipo == '1':\n\n        operacao = int(dados[1]) + int(dados[2])\n\n    elif tipo == '2':\n\n        operacao = int(dados[1]) - int(dados[2])\n\n    elif tipo == '3':\n\n        operacao = int(dados[1]) * int(dados[2])\n\n    elif tipo == '4':\n\n        if int(dados[2]) == 0:\n\n            print 'Erro: Divis\u00e3o por 0'\n\n            break\n\n        else:\n\n            operacao = int(dados[1]) / int(dados[2])\n\n    elif tipo == '5':\n\n        break\n\n    print operacao\n",
+      "name": "calculadora.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 8,\n      \"pep8\": 0,\n      \"lloc\": 16,\n      \"vhalstead\": 213.67,\n      \"header\": 3\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "8d7749bcde3ef96e9bc8ae3957b24f5a",
+  "iid": 4556577839251456,
+  "activity_revision": "1.0.2"
+}

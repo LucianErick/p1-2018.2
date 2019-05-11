@@ -1,0 +1,14 @@
+{
+  "files": {
+    "tinta.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: Tinta\n\naltura = float(raw_input())\nlargura = float(raw_input())\n\nmetros_por_litro = 13.8888 #descobre-se tal valor a partir de uma regra de tr\u00eas simples, onde: se 3.6 litros equivalem a 50 m2, 1 litro equivale a 13.888 m2\narea = altura * largura\n\nlitros_de_tinta = area / metros_por_litro\n\nprint '%.2f l' % litros_de_tinta\n",
+      "name": "tinta.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "89a00712f37dcabeafe2fb7c67906532",
+  "iid": 4900566517940224,
+  "activity_revision": "1.1.1"
+}

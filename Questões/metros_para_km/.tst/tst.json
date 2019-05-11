@@ -1,0 +1,14 @@
+{
+  "files": {
+    "metros_km.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Metros em KM\n\nmetros = int(raw_input())\n\nkm = metros * 1.0 / 1000\n\nprint '%i m = %.2f km' % (metros, km)\n",
+      "name": "metros_km.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "bac6987dd43ca31d3174a720a212a8ed",
+  "iid": 6457832991883264,
+  "activity_revision": "1.1.1"
+}

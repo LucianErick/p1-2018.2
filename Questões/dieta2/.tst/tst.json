@@ -1,0 +1,14 @@
+{
+  "files": {
+    "dieta.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Dias de dieta\n\npeso_a_ser_perdido = float(raw_input())\ntempo_exercicio = float(raw_input())\nconsumo = float(raw_input())\n\num_kg = 7700\numa_hora_exercicios = 900\ngasto_diario = 2000\n\nperda_de_peso_diario = ((tempo_exercicio * uma_hora_exercicios) + gasto_diario) - consumo\nobjetivo = (peso_a_ser_perdido * um_kg) / perda_de_peso_diario  \n\nprint 'Voc\u00ea precisar\u00e1 de %.2f dias de dieta' % objetivo\n",
+      "name": "dieta.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "c08c558950935a63b49c7c504cfc2799",
+  "iid": 6092337851662336,
+  "activity_revision": "1.0.1"
+}

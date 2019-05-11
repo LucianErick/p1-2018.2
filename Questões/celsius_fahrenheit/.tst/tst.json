@@ -1,0 +1,14 @@
+{
+  "files": {
+    "celsius.py": {
+      "category": "answer",
+      "data": "#coding: utf-8                           #\n#Universidade Federal de Campina Grande  #\n#           Programa\u00e7\u00e3o I                #\n#Ana Carolina Chaves  Matricula:118110388#\n##########################################\n\ncelsius = float(raw_input())\n\nfahrenheit = (celsius * 1.8) + 32\n\nprint fahrenheit\n",
+      "name": "celsius.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "dd901f179d149ab68fe7324cb4fa261d",
+  "iid": 6070691417817088,
+  "activity_revision": "1.1.8"
+}

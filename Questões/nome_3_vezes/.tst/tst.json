@@ -1,0 +1,14 @@
+{
+  "files": {
+    "3_vezes.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Nome 3 Vezes\n\nnome = raw_input()\n\nprint nome\nprint nome\nprint nome\n",
+      "name": "3_vezes.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "88701e6fc551a142999eb8a992b61100",
+  "iid": 5977041400758272,
+  "activity_revision": "1.2.0"
+}

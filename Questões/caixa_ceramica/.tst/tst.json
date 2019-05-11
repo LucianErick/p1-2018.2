@@ -1,0 +1,14 @@
+{
+  "files": {
+    "caixas_ceramica.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Caixas de cer\u00e2mica\n\ncapacidade = float(raw_input('Capacidade de revestimento? '))\nprint\nprint '== Dados do v\u00e3o a revestir =='\ncomprimento = float(raw_input('Comprimento? '))\nlargura = float(raw_input('Largura? '))\naltura = float(raw_input('Altura? '))\nprint\nprint '== Resultados =='\n\nparedes_laterais = 2 * largura * altura\nparedes_frontais = 2 * comprimento * altura\nchao = largura * comprimento\n\narea = paredes_laterais + paredes_frontais + chao \n\ncaixas = area / capacidade\nprint '\u00c1rea total a revestir: %.1f m2' % area\nprint 'N\u00famero de caixas: %i' % caixas\n",
+      "name": "caixas_ceramica.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "5261f48f9d9cd1f767e1a0c813349d0b",
+  "iid": 6461062538854400,
+  "activity_revision": "1.1.0"
+}

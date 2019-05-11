@@ -1,0 +1,14 @@
+{
+  "files": {
+    "unixtime.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Dias Unixtime\n\nsegundos = int(raw_input())\n\nminutos = segundos / 60\n\nhoras = minutos / 60\n\ndias = horas / 24\n\nprint dias\n",
+      "name": "unixtime.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "93cbcb456a6e4d7aef4c14b2a1e9896d",
+  "iid": 6418069647785984,
+  "activity_revision": "1.1.0"
+}

@@ -1,0 +1,19 @@
+{
+  "files": {
+    "public_tests.py": {
+      "category": "public",
+      "data": "import unittest\nimport sys\n\nundertest = __import__(sys.argv[-1].split(\".py\")[0])\ncalcula_digitos_verificacao = getattr(undertest, 'calcula_digitos_verificacao', None)\n\nclass PublicTests(unittest.TestCase):\n\n    def test_basico(self):\n        assert calcula_digitos_verificacao('153245875') == '40'\n\n\nif __name__ == '__main__':\n    loader = unittest.TestLoader()\n    runner = unittest.TextTestRunner()\n    runner.run(loader.loadTestsFromModule(sys.modules[__name__]))\n",
+      "name": "public_tests.py"
+    },
+    "verificador_cpf.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o I | 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: D\u00edgitos de Verifica\u00e7\u00e3o do CPF\n\ndef calcula_digitos_verificacao(cpf):\n\n    multiplicador = 2\n    somador = 0\n    for i in range(len(cpf) - 1, - 1, -1):\n\n        somador += int(cpf[i]) * multiplicador\n        multiplicador += 1\n\n        primeiro_digito = str((somador * 10) % 11)\n\n    if primeiro_digito == '10':\n        primeiro_digito = '0'\n\n    cpf = cpf + primeiro_digito\n\n    multiplicador = 2\n    somador = 0\n    for e in range(len(cpf) - 1, - 1, -1):\n\n        somador += int(cpf[e]) * multiplicador\n        multiplicador += 1\n\n        segundo_digito = str((somador * 10) % 11)\n\n    if segundo_digito == '10':\n        segundo_digito = '0'\n\n    return primeiro_digito + segundo_digito\n",
+      "name": "verificador_cpf.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "e7d83843f78f68718e5d852de46dd079",
+  "iid": 5300911308013568,
+  "activity_revision": "1.0.1"
+}

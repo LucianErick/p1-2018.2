@@ -1,0 +1,19 @@
+{
+  "files": {
+    "mega_tripla.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Mega Tripla\n\nnumero1 = int(raw_input())\nnumero2 = int(raw_input())\nnumero3 = int(raw_input())\n\naposta1 = numero1 % 11\naposta2 = numero2 % 11\naposta3 = numero3 % 11\n\nprint '%02d-%02d-%02d' % (aposta1, aposta2, aposta3)\n\n",
+      "name": "mega_tripla.py"
+    },
+    "mega_tripla1.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Mega Tripla\n\nnumero1 = int(raw_input())\nnumero2 = int(raw_input())\nnumero3 = int(raw_input())\n\naposta1 = numero1 % 11\naposta2 = numero2 % 11\naposta3 = numero3 % 11\n\nprint '%02d-%02d-%02d' % (aposta1, aposta2, aposta3)\n",
+      "name": "mega_tripla1.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "060f551e8b7ea102fbf51d111c284b39",
+  "iid": 6168879738912768,
+  "activity_revision": "1.0.1"
+}

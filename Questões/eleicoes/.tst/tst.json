@@ -1,0 +1,14 @@
+{
+  "files": {
+    "eleicoes.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: Elei\u00e7\u00f5es\n\nvotos_a = int(raw_input())\nvotos_b = int(raw_input())\nvotos_c = int(raw_input())\n\ntotal_votos = votos_a + votos_b + votos_c\n\npercenta_votos_a = votos_a * 100.0 / total_votos\npercenta_votos_b = votos_b * 100.0 / total_votos\npercenta_votos_c = votos_c * 100.0 / total_votos \n\nif votos_a > votos_b and votos_a > votos_c and percenta_votos_a > 50.00:\n    print'candidato A = %.2f%%, candidato B = %.2f%%, candidato C = %.2f%%, o candidato mais votado \u00e9 o Candidato A, segundo turno = N\u00e3o' % (percenta_votos_a, percenta_votos_b, percenta_votos_c)\n    \nelif votos_a > votos_b and votos_a > votos_c and percenta_votos_a <= 50.00:\n    print'candidato A = %.2f%%, candidato B = %.2f%%, candidato C = %.2f%%, o candidato mais votado \u00e9 o Candidato A, segundo turno = Sim' % (percenta_votos_a, percenta_votos_b, percenta_votos_c)\n    \nelif votos_b > votos_a and votos_b > votos_c and percenta_votos_b > 50.00:\n    print'candidato A = %.2f%%, candidato B = %.2f%%, candidato C = %.2f%%, o candidato mais votado \u00e9 o Candidato B, segundo turno = N\u00e3o' % (percenta_votos_a, percenta_votos_b, percenta_votos_c)\n    \nelif votos_b > votos_a and votos_b > votos_c and percenta_votos_b <= 50.00:\n    print'candidato A = %.2f%%, candidato B = %.2f%%, candidato C = %.2f%%, o candidato mais votado \u00e9 o Candidato B, segundo turno = Sim' % (percenta_votos_a, percenta_votos_b, percenta_votos_c)        \n    \nelif votos_c > votos_b and votos_c > votos_a and percenta_votos_c > 50.00:\n    print'candidato A = %.2f%%, candidato B = %.2f%%, candidato C = %.2f%%, o candidato mais votado \u00e9 o Candidato C, segundo turno = N\u00e3o' % (percenta_votos_a, percenta_votos_b, percenta_votos_c)\n    \nelif votos_c > votos_b and votos_c > votos_a and percenta_votos_c <= 50.00:\n    print'candidato A = %.2f%%, candidato B = %.2f%%, candidato C = %.2f%%, o candidato mais votado \u00e9 o Candidato C, segundo turno = Sim' % (percenta_votos_a, percenta_votos_b, percenta_votos_c)\n",
+      "name": "eleicoes.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "de2deafc5469769a452aca29f32cc774",
+  "iid": 6386469644009472,
+  "activity_revision": "1.0.1"
+}

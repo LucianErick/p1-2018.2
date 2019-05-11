@@ -1,0 +1,14 @@
+{
+  "files": {
+    "area_perimetro.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o I 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: \u00c1rea e Per\u00edmetro de um C\u00edrculo\n\nimport math\n\ndiametro = float(raw_input())\nraio = diametro / 2\narea = math.pi * raio ** 2\nperimetro = 2 * math.pi * raio\n\nprint 'A: %.5f' % area\nprint 'P: %.5f' % perimetro\n",
+      "name": "area_perimetro.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "78aca217b43ae31f2431965a61e03adf",
+  "iid": 6719486325424128,
+  "activity_revision": "1.1.1"
+}

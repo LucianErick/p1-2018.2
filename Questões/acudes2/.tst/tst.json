@@ -1,0 +1,14 @@
+{
+  "files": {
+    "acudes.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o I 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: A\u00e7udes\n\ncapacidade = int(raw_input('capacidade? ')) \npercentual = float(raw_input('percentual hoje? ')) * 0.01\ngasto = int(raw_input('gasto di\u00e1rio? '))\n\nrestante = capacidade * percentual\n\ndias_restantes = int(restante / gasto)\n\nprint 'volume: %.2f' % restante\nprint 'dias restantes: %i' % dias_restantes\n\n",
+      "name": "acudes.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "392d43f39ece80619b5d89e14a9bd49a",
+  "iid": 5267047202160640,
+  "activity_revision": "1.1.0"
+}

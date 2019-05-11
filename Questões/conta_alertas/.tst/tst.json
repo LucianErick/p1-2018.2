@@ -1,0 +1,19 @@
+{
+  "files": {
+    "conta_alertas.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o I | 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Conta Alertas\n\ndef conta_alertas_acude(medicoes):\n\n    alarme = 0\n    for i in range(2, len(medicoes)):\n\n        vizinho = medicoes[i - 1]\n\n        if abs(medicoes[i] - vizinho) <= 10:\n\n            if medicoes[i] < 17:\n\n                alarme += 1\n\n    return alarme\n\nmedicoes = [50, 50, 50, 23, 21, 17, 15, 60, 65, 15, 15]\nassert conta_alertas_acude(medicoes) == 2\n",
+      "name": "conta_alertas.py"
+    },
+    "public_tests.py": {
+      "category": "public",
+      "data": "import unittest\nimport sys\n\nundertest = __import__(sys.argv[-1].split(\".py\")[0])\nconta_alertas_acude = getattr(undertest, 'conta_alertas_acude', None)\n\nclass PublicTests(unittest.TestCase):\n\n    def test_exemplo(self):\n        medicoes = [50,50,50,23,21,17,15,60,65,15,15]\n        assert conta_alertas_acude(medicoes) == 2\n\nif __name__ == '__main__':\n    loader = unittest.TestLoader()\n    runner = unittest.TextTestRunner()\n    runner.run(loader.loadTestsFromModule(sys.modules[__name__]))\n",
+      "name": "public_tests.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "50387abc408e2eb09459a0a047686b49",
+  "iid": 5849414937608192,
+  "activity_revision": "1.0.1"
+}

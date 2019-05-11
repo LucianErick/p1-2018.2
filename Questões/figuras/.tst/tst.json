@@ -1,0 +1,19 @@
+{
+  "files": {
+    "figuras.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1 | 2018.2\n#Problema: \u00c1rea de figuras planas\n\nfrom math import pi\n\ndesenho = str(raw_input())\nbase = 0.0\nlado = 0.0\nraio = 0.0\n\nif (desenho == \"tri\u00e2ngulo\"):\n\tbase = float(raw_input())\n\tlado = float(raw_input())\n\ttriangulo = (base * lado) / 2.0\n\tprint \"\u00c1rea do tri\u00e2ngulo: %.2f (cm2)\" % triangulo\nelif (desenho == \"quadrado\"):\n\tlado = float(raw_input())\n\tquadrado = lado ** 2.0\n\tprint \"\u00c1rea do quadrado: %.2f (cm2)\" % quadrado\nelif (desenho == \"c\u00edrculo\"):\n\traio = float(raw_input())\n\tcirculo = pi * (raio ** 2)\n\tprint \"\u00c1rea do c\u00edrculo: %.2f (cm2)\" % circulo\nelif (desenho == \"ret\u00e2ngulo\"):\n\tbase = float(raw_input())\n\tlado = float(raw_input())\n\tretangulo = base * lado\n\tprint \"\u00c1rea do ret\u00e2ngulo: %.2f (cm2)\" % retangulo\n",
+      "name": "figuras.py"
+    },
+    "porressa.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: \u00c1rea de figuras planas\n\nfrom math import pi\n\ndesenho = str(raw_input())\n\nif (desenho == \"tri\u00e2ngulo\"):\n\t\n\tbase = float(raw_input())\n\tlado = float(raw_input())\n\ttriangulo = (base * lado) / 2.0\n\t\n\tprint \"\u00c1rea do tri\u00e2ngulo: %.2f (cm2)\" % triangulo\n\nelif (desenho == \"quadrado\"):\n\t\n\tlado = float(raw_input())\n\tquadrado = (lado ** 2)\n\t\n\tprint \"\u00c1rea do quadrado: %.2f (cm2)\" % quadrado\n\nelif (desenho == \"c\u00edrculo\"):\n\t\n\traio = float(raw_input())\n\tcirculo = pi * (raio ** 2)\n\t\n\tprint \"\u00c1rea do c\u00edrculo: %.2f (cm2)\" % circulo\n\nelif (desenho == \"ret\u00e2ngulo\"):\n\tbase = float(raw_input())\n\tlado = float(raw_input())\n\tretangulo = (base * lado)\n\t\n\tprint \"\u00c1rea do ret\u00e2ngulo: %.2f (cm2)\" % retangulo\n",
+      "name": "porressa.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "8093b22babb8fd6bad80fa80898f63d3",
+  "iid": 5240911453749248,
+  "activity_revision": "1.1.0"
+}

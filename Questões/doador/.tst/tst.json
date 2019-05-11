@@ -1,0 +1,14 @@
+{
+  "files": {
+    "doador.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: Compatibilidade Sangu\u00ednea\n\nabo_paciente = raw_input()\nrh_paciente = raw_input()\nabo_doador = raw_input()\nrh_doador = raw_input()\n\nif      abo_paciente == 'O' and rh_paciente == '+' and abo_doador == 'O' and (rh_doador == '+' or rh_doador == '-') \\\n     or abo_paciente == 'O' and rh_paciente == '-' and abo_doador == 'O' and rh_doador == '-' \\\n     or abo_paciente == 'A' and rh_paciente == '+' and (abo_doador == 'O' or abo_doador == 'A') and (rh_doador == '+' or rh_doador == '-') \\\n     or abo_paciente == 'A' and rh_paciente == '-' and (abo_doador == 'O' or abo_doador == 'A') and rh_doador == '-' \\\n     or abo_paciente == 'B' and rh_paciente == '+' and (abo_doador == 'O' or abo_doador == 'B') and (rh_doador == '+' or rh_doador == '-') \\\n     or abo_paciente == 'B' and rh_paciente == '-' and (abo_doador == 'O' or abo_doador == 'B') and rh_doador == '-' \\\n     or abo_paciente == 'AB' and rh_paciente == '+' and (abo_doador == 'A' or abo_doador == 'B' or abo_doador == 'AB' or abo_doador == 'O') and (rh_doador == '+' or rh_doador == '-') \\\n     or abo_paciente == 'AB' and rh_paciente == '-' and (abo_doador == 'A' or abo_doador == 'B' or abo_doador == 'AB' or abo_doador == 'O') and rh_doador == '-':\n     print 'compat\u00edvel'\n\nelse: \n     \n     print 'incompat\u00edvel'\n",
+      "name": "doador.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "51d476d0164ce520de4ed172862619a1",
+  "iid": 4555674201620480,
+  "activity_revision": "1.0.2"
+}

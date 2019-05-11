@@ -1,0 +1,14 @@
+{
+  "files": {
+    "campos_futebol.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Campos de futebol\n\narea_1 = float(raw_input())\narea_2 = float(raw_input())\narea_3 = float(raw_input())\n\ncampos_1 = area_1 / 4000\ncampos_2 = area_2 / 4000\ncampos_3 = area_3 / 4000\n\nmedia = (campos_1 + campos_2 + campos_3) / 3 \n\nprint '%.2f' % campos_1\nprint '%.2f' % campos_2\nprint '%.2f' % campos_3\nprint '%.2f' % media\n",
+      "name": "campos_futebol.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "fac7f8f9ecabe4097b7ffa17b4e8ccc5",
+  "iid": 6403643557281792,
+  "activity_revision": "1.0.1"
+}

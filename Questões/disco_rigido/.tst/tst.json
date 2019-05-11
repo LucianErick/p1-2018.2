@@ -1,0 +1,19 @@
+{
+  "files": {
+    "disco_rigido.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Espa\u00e7o em disco simplificado\n\nlogin1 = raw_input()\nespaco1 = int(raw_input())\n\nlogin2 = raw_input()\nespaco2 = int(raw_input())\n\nlogin3 = raw_input()\nespaco3 = int(raw_input())\n \nprint 'SPLab - Espa\u00e7o utilizado pelos usu\u00e1rios'\nprint '---------------------------------------------'\nprint 'Nr., Usu\u00e1rio, Espa\u00e7o Utilizado'\n\nconversao1 = (espaco1 * 1.0 / 1024) / 1024\nconversao2 = (espaco2 * 1.0 / 1024) / 1024\nconversao3 = (espaco3 * 1.0 / 1024) / 1024\n\nprint '1, %s, %.2f MB' % (login1, conversao1)\nprint '2, %s, %.2f MB' % (login2, conversao2)\nprint '3, %s, %.2f MB' % (login3, conversao3)\n\ntotal = conversao1 + conversao2 + conversao3\nmedia = total / 3\n\nprint 'Espa\u00e7o total ocupado: %.2f MB' % total \nprint 'Espa\u00e7o m\u00e9dio ocupado: %.2f MB' % media\n",
+      "name": "disco_rigido.py"
+    },
+    "hd.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Espa\u00e7o em disco simplificado\n\nlogin1 = raw_input()\nespaco1 = int(raw_input())\n\nlogin2 = raw_input()\nespaco2 = int(raw_input())\n\nlogin3 = raw_input()\nespaco3 = int(raw_input())\n \nprint 'SPLab - Espa\u00e7o utilizado pelos usu\u00e1rios'\nprint '---------------------------------------------'\nprint 'Nr., Usu\u00e1rio, Espa\u00e7o Utilizado'\n\nconversao1 = (espaco1 * 1.0 / 1024) / 1024\nconversao2 = (espaco2 * 1.0 / 1024) / 1024\nconversao3 = (espaco3 * 1.0 / 1024) / 1024\n\nprint '1, %s, %.2f MB' % (login1, conversao1)\nprint '2, %s, %.2f MB' % (login2, conversao2)\nprint '3, %s, %.2f MB' % (login3, conversao3)\n\ntotal = conversao1 + conversao2 + conversao3\nmedia = total / 3\n\nprint 'Espa\u00e7o total ocupado: %.2f MB' % total \nprint 'Espa\u00e7o m\u00e9dio ocupado: %.2f MB' % media\n",
+      "name": "hd.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "e7b0b04c348c06c7a358e0fd25ff65d9",
+  "iid": 6339802660077568,
+  "activity_revision": "1.1.0"
+}

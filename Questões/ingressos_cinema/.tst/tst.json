@@ -1,0 +1,19 @@
+{
+  "files": {
+    "ingressos_cinema.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Calcula ingresso do cinema\n\nadultos = int(raw_input())\ncriancas = int(raw_input())\ningresso = float(raw_input())\n\ntotal = adultos * ingresso + criancas * (ingresso / 2)\n\nprint 'Total: R$ %.1f' % total\n \n",
+      "name": "ingressos_cinema.py"
+    },
+    "ingressos.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Calcula ingresso do cinema\n\nadultos = int(raw_input())\ncriancas = int(raw_input())\ningresso = float(raw_input())\n\ntotal = adultos * ingresso + criancas * (ingresso / 2)\n\nprint 'Total: R$ ' + str(total)\n \n",
+      "name": "ingressos.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "d06516be0b1c2b711d3d87dcf32ae1d9",
+  "iid": 6465088936476672,
+  "activity_revision": "1.0.0"
+}

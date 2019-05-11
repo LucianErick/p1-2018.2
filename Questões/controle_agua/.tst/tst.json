@@ -1,0 +1,14 @@
+{
+  "files": {
+    "controle_agua.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Controle de \u00e1gua\n\nimport math\n\nvelocidade_de_vazao = float(raw_input())\ndiametro = float(raw_input())\ntempo = float(raw_input())\nseccao = (math.pi * diametro ** 2 ) / 4\nvazao = velocidade_de_vazao * seccao * 1000            \n\nquantidade_de_agua = tempo * vazao\n\nprint \"Quantidade de \u00e1gua =\", quantidade_de_agua, \"litros.\"\n",
+      "name": "controle_agua.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "6ea39b995e4ac3ea0ce0e412c721cfde",
+  "iid": 5233874955141120,
+  "activity_revision": "1.0.1"
+}

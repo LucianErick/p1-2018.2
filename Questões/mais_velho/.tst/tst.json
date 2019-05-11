@@ -1,0 +1,18 @@
+{
+  "files": {
+    "mais_velho.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: Mais velho entre duas pessoas\n\nnome_1 = raw_input()\ndia_1 = int(raw_input())\nmes_1 = int(raw_input())\nano_1 = int(raw_input())\nnome_2 = raw_input()\ndia_2 = int(raw_input())\nmes_2 = int(raw_input())\nano_2 = int(raw_input())\n\nif ano_1 < ano_2 \\\n   or ano_1 == ano_2 and mes_1 < mes_2 \\\n   or ano_1 == ano_2 and mes_1 == mes_2 and dia_1 < dia_2:\n   print nome_1\n   \nelif ano_2 < ano_1 \\\n   or ano_1 == ano_2 and mes_2 < mes_1 \\\n   or ano_1 == ano_2 and mes_1 == mes_2 and dia_2 < dia_1:\n   print nome_2\n   \nelse:\n\tprint 'nenhuma'\n",
+      "name": "mais_velho.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 7,\n      \"pep8\": 0,\n      \"lloc\": 25,\n      \"vhalstead\": 54.0,\n      \"header\": 3\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "af82823eb483fb7c01057edb9eb46dff",
+  "iid": 5707407799877632,
+  "activity_revision": "1.0.3"
+}

@@ -1,0 +1,14 @@
+{
+  "files": {
+    "defensivos.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: Defensivos\n\ntipo_de_produto = raw_input()\narea_hectares = float(raw_input())\nfungicida =  (1.0 * area_hectares / 50.0)\nherbicida =  (0.3 * area_hectares / 1.0)\ninseticida = (2.5 * area_hectares / 30.0)\n\n#Calcular quantidade:\n\nif   tipo_de_produto == 'Fungicida' and fungicida % 1 == 0:\n     quantidade = int(fungicida)\n     \nelif tipo_de_produto == 'Fungicida' and fungicida % 1 != 0: \n     quantidade = int(fungicida) + 1\t    \n     \nelif tipo_de_produto == 'Herbicida' and herbicida % 1 == 0: \n\t quantidade = int(herbicida)\n\t \nelif tipo_de_produto == 'Herbicida' and herbicida % 1 != 0:\n\t quantidade = int(herbicida) + 1\n\nelif tipo_de_produto == 'Inseticida' and inseticida % 1 == 0:\n\t quantidade = int(inseticida) \n\nelif tipo_de_produto == 'Inseticida' and inseticida % 1 != 0: \t  \t  \t\n\t quantidade = int(inseticida) + 1\n\t \n\n#Calcular pre\u00e7o :\n\nif   tipo_de_produto == 'Fungicida':\n\t preco = quantidade * 320.0\n\t \nelif tipo_de_produto == 'Herbicida':\n\t preco = quantidade * 100\n\nelif tipo_de_produto == 'Inseticida':\n\t preco = quantidade * 400\n\t \nprint '%d %s(s). %.2f reais.' % (quantidade, tipo_de_produto, preco)\n\t \t \t   \n\n\t \n",
+      "name": "defensivos.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "4ae659829c9ca963548cfabf277fec7d",
+  "iid": 5782571875041280,
+  "activity_revision": "1.1.1"
+}

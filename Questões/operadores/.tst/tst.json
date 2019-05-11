@@ -1,0 +1,14 @@
+{
+  "files": {
+    "operadores.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande  \n#Ci\u00eancia da Computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: Operadores\n\na = int(raw_input())\nb = int(raw_input())\n\nadicao = str(a + b) \nsubtracao = str(a - b)\nmultiplicacao = str(a * b)\ndivisao = str(a / b) \nresto = str(a % b)\nexponenciacao = str(a ** b)\nnegacao_de_a = str(a * -1)\na_igual_b = str(a == b)\na_diferente_b = str(a != b)\na_maior_que_b = str(a > b)\nb_maior_que_a = str(b > a)\na_menor_igual_b = str(a <= b)\n\nprint '===== Operadores ====='\nprint 'A = %s' % a\nprint 'B = %s' % b\nprint 'Adi\u00e7\u00e3o = %s' % adicao \nprint 'Subtra\u00e7\u00e3o = %s' % subtracao\nprint 'Multiplica\u00e7\u00e3o = %s' % multiplicacao\nprint 'Divis\u00e3o = %s' % divisao\nprint 'Resto = %s' % resto \nprint 'Exponencia\u00e7\u00e3o = %s' % exponenciacao\nprint 'Nega\u00e7\u00e3o de A = %s' % negacao_de_a\nprint 'A \u00e9 igual a B? %s' % a_igual_b\nprint 'A \u00e9 diferente de B? %s' % a_diferente_b\nprint 'A \u00e9 maior que B? %s' % a_maior_que_b\nprint 'B \u00e9 maior que A? %s' % b_maior_que_a\nprint 'A \u00e9 menor ou igual a B? %s' % a_menor_igual_b\n",
+      "name": "operadores.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "7ff38f7142a880e29df78989fec226b6",
+  "iid": 5446729725902848,
+  "activity_revision": "1.2.0"
+}

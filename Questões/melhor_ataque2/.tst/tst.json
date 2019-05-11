@@ -1,0 +1,18 @@
+{
+  "files": {
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 5,\n      \"pep8\": 0,\n      \"lloc\": 19,\n      \"vhalstead\": 66.61,\n      \"header\": 3\n    }\n  ]\n}"
+    },
+    "melhor_ataque.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Ataque Mais Positivo de um Campeonato\n\nnumero_de_times = int(raw_input())\nlista_nomes = []\nlista_gols = []\nmelhores_times = []\ngols_totais = 0.0\nmais_gols = 0\n\nfor i in range(numero_de_times):\n\t\n\tnome = raw_input()\n\tlista_nomes.append(nome)\n\t\n\tgols = int(raw_input())\n\tlista_gols.append(gols)\n    \n\tgols_totais += gols\n\n# Definindo qual a maior quantidade de gols marcados    \nfor j in range(len(lista_gols)):\n\t\n\tif lista_gols[j] > mais_gols:\n\t   mais_gols = lista_gols[j]\n\n# Definindo que times marcaram mais gols\t   \nfor k in range(len(lista_gols)):\n\t\n\tif lista_gols[k] == mais_gols:\n\t   melhores_times.append(lista_nomes[k])\n\nmedia = gols_totais / numero_de_times\n\nprint 'Time(s) com melhor ataque (%d gol(s)):' % mais_gols\nfor l in range(len(melhores_times)):\n\tprint melhores_times[l]\nprint '\\nM\u00e9dia de gols marcados: %.1f' % media\t\n",
+      "name": "melhor_ataque.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "fc22efa810409cf7491ee169d1744784",
+  "iid": 4989322939858944,
+  "activity_revision": "1.1.1"
+}

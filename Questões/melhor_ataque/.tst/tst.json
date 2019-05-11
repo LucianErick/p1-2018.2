@@ -1,0 +1,18 @@
+{
+  "files": {
+    "ataque_mais_positivo.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Ataque mais positivo de um campeonato\n\nquant_time = int(raw_input())\ntimes = []\ngols = []\nmaior = 0\nn_gol = 0\n\n\nfor i in range(0, quant_time):\n\ttim = raw_input()\n\ttimes.append(tim)\n\tgol = int(raw_input())\n\tgols.append(gol)\n\tn_gol += gol\nfor n in gols:\n\tif n > maior:\n\t\tmaior = n\nprint'Time(s) com melhor ataque (' + str(maior) + ' gol(s)):'\nfor x in range(len(gols)):\n\tif gols[x] == maior:\n\t\tprint times[x]\n\t\t\nmedia = n_gol / (quant_time * 1.0)\nprint '\\n' + 'M\u00e9dia de gols marcados: ' + '%.1f' % media\n",
+      "name": "ataque_mais_positivo.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 5,\n      \"pep8\": 0,\n      \"lloc\": 19,\n      \"vhalstead\": 66.61,\n      \"header\": 3\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "18fd1eddcf3a7a625ec4dedd97f584df",
+  "iid": 5053210460946432,
+  "activity_revision": "1.1.1"
+}

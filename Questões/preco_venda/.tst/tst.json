@@ -1,0 +1,14 @@
+{
+  "files": {
+    "preco_venda.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Calcula pre\u00e7o de venda \n\ncusto = float(raw_input())\ndespesas = float(raw_input())\nlucro = float(raw_input())\nimpostos = float(raw_input())\ncomissoes = float(raw_input())\ndescontos = float(raw_input())\nencargos = float(raw_input())\n\nporcenta_venda = (despesas + lucro) / 100.0\npreco_venda = custo + custo * porcenta_venda\npreco_venda1 = (100 / (100 - impostos - comissoes - descontos - encargos))\nvalor_total = preco_venda1 * preco_venda\nresto = valor_total % int(valor_total)\n\nprint \"Pre\u00e7o de venda \u00e9 R$ %.2f (R$ %.2f + R$ %.2f)\" % (valor_total,int(valor_total),resto)\n",
+      "name": "preco_venda.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "afe36ae9701c68eaa892bcee0990e670",
+  "iid": 4976528098066432,
+  "activity_revision": "1.1.0"
+}

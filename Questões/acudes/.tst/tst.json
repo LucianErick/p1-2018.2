@@ -1,0 +1,14 @@
+{
+  "files": {
+    "acudes.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#UFCG - Progama\u00e7\u00e3o 1\n\ncapacidade = float(raw_input('capacidade? '))\npercentual = float(raw_input('percentual hoje? '))\nconsumo = float(raw_input('gasto di\u00e1rio? '))\n\nvolume_disponivel = capacidade * (percentual/100)\ndias_restantes = int(volume_disponivel / consumo)\n\nprint 'volume: %.2f' % volume_disponivel\nprint 'dias restantes: %i' % dias_restantes \n",
+      "name": "acudes.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "c11d9ddb4ba7806f9eef0be42d2eb514",
+  "iid": 4642042638499840,
+  "activity_revision": "1.1.0"
+}

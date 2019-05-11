@@ -1,0 +1,14 @@
+{
+  "files": {
+    "nota_fiscal.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Imprime Nota Fiscal\n\nvalor_total = float(raw_input())\ndata = raw_input()\nquantidade_de_produtos = int(raw_input())\n\nmedia = valor_total / quantidade_de_produtos\n\nprint 'Data: %s' % data\nprint 'O valor total da compra foi de R$ %.2f. A m\u00e9dia do pre\u00e7o dos produtos \u00e9 de %.1f.' % (valor_total, media)\n\n\n",
+      "name": "nota_fiscal.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "786e1f9c126c4ab86125440349d20c8d",
+  "iid": 5056942972076032,
+  "activity_revision": "1.1.1"
+}

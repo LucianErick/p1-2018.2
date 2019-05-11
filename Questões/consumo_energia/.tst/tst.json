@@ -1,0 +1,14 @@
+{
+  "files": {
+    "consumo_energia.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Consumo energia\n\npotencia = int(raw_input())\ntempo = int(raw_input()) / 60.0\n\nconsumo = (potencia * tempo) / 1000.0\n\nprint str(consumo) + ' kWh' \n \n",
+      "name": "consumo_energia.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "a5f4d413dcca9697dfcd09312db627a1",
+  "iid": 4996268673728512,
+  "activity_revision": "1.0.0"
+}

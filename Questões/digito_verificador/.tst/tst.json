@@ -1,0 +1,19 @@
+{
+  "files": {
+    "digito_verificador.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Digito Verificador de 5 d\u00edgitos\n\nnumero = raw_input()\n\ndigitos = int(numero[0]) + int(numero[1]) + int(numero[2]) + int(numero[3]) + int(numero[4])\n\ndigito_verificador = digitos % 11\n\nprint '%s-%i' % (numero, digito_verificador)\n",
+      "name": "digito_verificador.py"
+    },
+    "verificador.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Digito Verificador de 5 d\u00edgitos\n\nnumero = raw_input()\n\ndigitos = int(numero[0]) + int(numero[1]) + int(numero[2]) + int(numero[3]) + int(numero[4])\n\ndigito_verificador = digitos % 11\n\nprint '%s-%02d' % (numero, digito_verificador)\n",
+      "name": "verificador.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "ec666f25a66aef09b613cc3cd930aabd",
+  "iid": 4948944744349696,
+  "activity_revision": "1.1.0"
+}

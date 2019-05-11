@@ -1,0 +1,14 @@
+{
+  "files": {
+    "salario.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: Sal\u00e1rio bruto e l\u00edquido\n\nnome = raw_input()\nquantidade_horas_extras = float(raw_input()) \nsalario_minimo = float(raw_input())\nhora_extra = float(raw_input())\n\nsalario_hora_extra = quantidade_horas_extras * hora_extra \nsalario_bruto = (4.0 * salario_minimo) + salario_hora_extra\ninss = 0.12 * salario_bruto\nimposto_de_renda = 0.2 * salario_bruto\nsalario_liquido = salario_bruto - (inss + imposto_de_renda)\n\nprint 'O Sal\u00e1rio Bruto de %s \u00e9 de R$ %.2f' % (nome, salario_bruto)\nprint 'O Sal\u00e1rio L\u00edquido de %s \u00e9 de R$ %.2f' % (nome, salario_liquido)\n",
+      "name": "salario.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "e75e8bd7a30395c8d2840076da420687",
+  "iid": 6602759365197824,
+  "activity_revision": "1.1.0"
+}

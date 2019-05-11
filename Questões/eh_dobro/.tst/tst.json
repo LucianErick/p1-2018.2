@@ -1,0 +1,18 @@
+{
+  "files": {
+    "eh_dobro.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: \u00c9 dobro ?\n\nnumero_1 = int(raw_input())\nnumero_2 = int(raw_input())\n\nif numero_1 == 2 * numero_2 or numero_2 == 2 * numero_1:\n   print 'SIM'\nelse:\n   print 'NAO'     \n",
+      "name": "eh_dobro.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 3,\n      \"pep8\": 2,\n      \"lloc\": 6,\n      \"vhalstead\": 49.83,\n      \"header\": 9\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "003820f3e868f95ee3708f7478bb3e02",
+  "iid": 4969133523337216,
+  "activity_revision": "1.0.3"
+}

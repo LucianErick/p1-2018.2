@@ -1,0 +1,19 @@
+{
+  "files": {
+    "corrige_media.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Corrige m\u00e9dia\n\nnota1 = 10\nnota2 = 5\n\nmedia = nota1 / 2.0 + nota2 / 2.0\n\nprint \"Nota 1: %4.1f\" % nota1\nprint \"Nota 2: %4.1f\" % nota2\nprint \"M\u00e9dia : %4.1f\" % media\n",
+      "name": "corrige_media.py"
+    },
+    "media_corrige.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Corrige m\u00e9dia\n\nnota1 = 10\nnota2 = 5\n\nmedia = (nota1 + nota2) / 2.0\n\nprint \"Nota 1: %.1f\" % nota1\nprint \"Nota 2:  %.1f\" % nota2\nprint \"M\u00e9dia :  %.1f\" % media\n",
+      "name": "media_corrige.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "33e2407abec4600ba78d3f8c843487ae",
+  "iid": 6112540371189760,
+  "activity_revision": "1.1.0"
+}

@@ -1,0 +1,19 @@
+{
+  "files": {
+    "area_circulo.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: \u00c1rea do C\u00edrculo\n\nimport math\n\nraio = float(raw_input())\n\narea = math.pi * (raio ** 2)\n\nprint '%.2f' % area  \n",
+      "name": "area_circulo.py"
+    },
+    "circulo.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: \u00c1rea do C\u00edrculo\n\nimport math\n\nraio = float(raw_input())\n\narea = math.pi * (raio ** 2)\n\nprint '%.2f' % area  \n",
+      "name": "circulo.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "88a7c0e1cf795f82f35e0a5e535452e4",
+  "iid": 4970618625720320,
+  "activity_revision": "1.1.3"
+}

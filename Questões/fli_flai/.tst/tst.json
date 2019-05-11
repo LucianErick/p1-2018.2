@@ -1,0 +1,14 @@
+{
+  "files": {
+    "fli_flai.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: Fli Flai\n\nprimeiro_numero = int(raw_input())\nsegundo_numero = int(raw_input())\nterceiro_numero = int(raw_input())\n\nif (primeiro_numero % 10 == 0) or (segundo_numero % 10 == 0) or (terceiro_numero % 10 == 0):  \n   print 'Tumba'\t\n\nelif not primeiro_numero % 10 == 0 or not segundo_numero % 10 == 0 or not terceiro_numero % 10 == 0:  \n  if primeiro_numero % 2 == 0:\n\tprint 'Fli'\n\n  if segundo_numero % 3 == 0:\n\tprint 'Flai'\n\n  if terceiro_numero % 5 == 0:\n\tprint 'Flu'\t\n\n\n\n",
+      "name": "fli_flai.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "9816271118650804d781f097eaf213fb",
+  "iid": 4556880013688832,
+  "activity_revision": "1.1.1"
+}

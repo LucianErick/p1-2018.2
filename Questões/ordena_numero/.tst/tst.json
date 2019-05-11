@@ -1,0 +1,14 @@
+{
+  "files": {
+    "ordena_numero.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: Ordena 3 n\u00fameros\n\nnumero_1 = int(raw_input())\nnumero_2 = int(raw_input())\nnumero_3 = int(raw_input())\n\nif numero_1 <= numero_2 <= numero_3:\n   print '%d %d %d' % (numero_1, numero_2, numero_3)\nelif numero_1 <= numero_3 <= numero_2:\n   print '%d %d %d' % (numero_1, numero_3, numero_2)\nelif numero_2 <= numero_1 <= numero_3:\n   print '%d %d %d' % (numero_2, numero_1, numero_3)\nelif numero_2 <= numero_3 <= numero_1:\n   print '%d %d %d' % (numero_2, numero_3, numero_1)  \nelif numero_3 <= numero_1 <= numero_2:\n   print '%d %d %d' % (numero_3, numero_1, numero_2)\nelif numero_3 <= numero_2 <= numero_1:\n   print '%d %d %d' % (numero_3, numero_2, numero_1)\t        \t   \n",
+      "name": "ordena_numero.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "da4c7c58b4128f40fa86d8d3866a3a7b",
+  "iid": 5216633832341504,
+  "activity_revision": "1.0.2"
+}

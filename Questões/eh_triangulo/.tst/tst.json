@@ -1,0 +1,18 @@
+{
+  "files": {
+    "eh_triangulo.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: Valida\u00e7\u00e3o de tri\u00e2ngulos\n\na = int(raw_input())\nb = int(raw_input())\nc = int(raw_input())\n\nperimetro = a + b + c\n\nif abs(b - c) < a < b + c \\\n   and abs(a - c) < b < a + c \\\n   and abs(a - b) < c < a + b:\n   print 'triangulo valido. %d' % perimetro\n   \nelse: \n\tprint 'triangulo invalido.'      \n",
+      "name": "eh_triangulo.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 3,\n      \"pep8\": 0,\n      \"lloc\": 7,\n      \"vhalstead\": 103.61,\n      \"header\": 4\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "68770b9f7206289708181d62645cb70a",
+  "iid": 5862234660012032,
+  "activity_revision": "1.1.1"
+}

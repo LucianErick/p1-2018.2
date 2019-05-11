@@ -1,0 +1,19 @@
+{
+  "files": {
+    "safra.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Divis\u00e3o Safra\n\nsafra = int(raw_input())\natacado = int(raw_input())\nvarejo = int(raw_input())\n\nvenda_atacado = safra / atacado\n\nresto = safra % atacado\n\nvenda_varejo = resto * 1.0 / varejo\n\nprint 'Clientes no atacado = %ikg cada.' % venda_atacado\nprint 'Clientes no varejo = %.2fkg cada.' % venda_varejo\n\n",
+      "name": "safra.py"
+    },
+    "divisao_safra.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Divis\u00e3o Safra\n\nsafra = int(raw_input())\natacado = int(raw_input())\nvarejo = int(raw_input())\n\nvenda_atacado = safra / atacado\n\nresto = safra % atacado\n\nvenda_varejo = resto * 1.0 / varejo\n\nprint 'Clientes no atacado = %ikg cada.' % venda_atacado\nprint 'Clientes no varejo = %.2fkg cada.' % venda_varejo\n\n",
+      "name": "divisao_safra.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "158c30f092c952a4083c9a715b062f3d",
+  "iid": 6356924748529664,
+  "activity_revision": "1.1.0"
+}

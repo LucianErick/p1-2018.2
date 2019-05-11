@@ -1,0 +1,14 @@
+{
+  "files": {
+    "cinema.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Calcula despesas do cinema\n\ndia =  raw_input(\"Dia da semana? \")\norcamento =  float(raw_input(\"Orcamento? R$ \"))\nadultos =  int(raw_input(\"Numero de adultos? \"))\ncriancas =  int(raw_input(\"Numero de criancas? \"))\npizza = float(raw_input(\"Preco da pizza? R$ \"))\nrefrigerante = float(raw_input(\"Preco do refrigerante? R$ \"))\nestacionamento = float(raw_input(\"Preco do estacionamento? R$ \"))\ncinema = float(raw_input(\"Preco do ingresso do cinema? R$ \"))\n\ngastos_alimentacao = pizza + refrigerante\ngastos_cinema = (adultos * (cinema + 2.0)) + (criancas * (cinema / 2.0 + 2)) \ngastos_total = gastos_cinema + gastos_alimentacao + estacionamento\n\nprint \"========== Despesas de \" + dia + \" ==========\"\nprint \"Despesas com alimentacao: R$ \" + str(gastos_alimentacao)\nprint \"Despesas com cinema: R$ \" + str(gastos_cinema)\nprint \"Despesas por pessoa: R$ \" + str(gastos_total / (criancas + adultos))\nprint \"Saldo disponivel: \" + str(orcamento - gastos_total)\n",
+      "name": "cinema.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "497ad75f4292a725e6c37b1d12b13cd4",
+  "iid": 6646027083841536,
+  "activity_revision": "2.0.0"
+}

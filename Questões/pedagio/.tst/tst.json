@@ -1,0 +1,18 @@
+{
+  "files": {
+    "pedagio.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: Ped\u00e1gio\n\nveiculo = raw_input()\n\nif veiculo == 'Motocicleta':\n   valor = 5.70\n   print 'Valor a pagar: R$ %.2f.' % (valor)\n   \nelif veiculo == 'Autom\u00f3vel utilit\u00e1rio':\n   valor = 11.40\n   print 'Valor a pagar: R$ %.2f.' % (valor)\n   \nelif veiculo == '\u00d4nibus' or veiculo == 'Caminh\u00e3o':\n   eixos = int(raw_input())\n   if veiculo == '\u00d4nibus':\n      valor = 11.40 * eixos\n      print 'Valor a pagar: R$ %.2f.' % (valor)\n   elif veiculo == 'Caminh\u00e3o':\n      valor = 9.60 * eixos\n      print 'Valor a pagar: R$ %.2f.' % (valor)  \n      \nelse:\n\tprint 'Ve\u00edculo n\u00e3o cadastrado.'             \n",
+      "name": "pedagio.py"
+    },
+    "solucao.py": {
+      "category": "public",
+      "data": "# coding: utf-8\n\nv = raw_input()\n\nif v == \"Autom\u00f3vel utilit\u00e1rio\":\n\tp = 11.40\n\tprint \"Valor a pagar: R$ %.2f.\" % p\nelif v == \"\u00d4nibus\":\n\teixos = int(raw_input())\n\tp = eixos * 11.40\n\tprint \"Valor a pagar: R$ %.2f.\" % p\nelif v == \"Caminh\u00e3o\":\n\teixos = int(raw_input())\n\tp = eixos * 9.60\n\tprint \"Valor a pagar: R$ %.2f.\" % p\nelif v == \"Motocicleta\":\n\tp = 5.70\n\tprint \"Valor a pagar: R$ %.2f.\" % p\nelse:\n\tprint \"Ve\u00edculo n\u00e3o cadastrado.\"\n"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "934e65d5de2735d06f47a5f812319804",
+  "iid": 5851230534369280,
+  "activity_revision": "1.0.0"
+}

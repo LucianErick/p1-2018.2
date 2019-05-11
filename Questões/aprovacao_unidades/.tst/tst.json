@@ -1,0 +1,14 @@
+{
+  "files": {
+    "aprovacao_unidades.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o I 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Aprova\u00e7\u00e3o unidades\n\nunidade = int(raw_input('Unidade? '))\nmedia = float(raw_input('M\u00e9dia de aprova\u00e7\u00e3o na unidade?'))\n\nproxima_unidade = unidade + 1\nmsg = 'O aluno vai para a unidade %d com m\u00e9dia %.1f.'\nprint ' '\nprint msg % (proxima_unidade, media)\n",
+      "name": "aprovacao_unidades.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "acfc2b5812383d85c972a2576df9663f",
+  "iid": 6160684404441088,
+  "activity_revision": "1.1.6"
+}

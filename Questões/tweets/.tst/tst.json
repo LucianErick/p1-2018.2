@@ -1,0 +1,14 @@
+{
+  "files": {
+    "tweets.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: Tweets\n\nquantidade_de_tweets = float(raw_input())\ntweets_por_pagina = 400\n\npaginas = quantidade_de_tweets / tweets_por_pagina\npercentual_tweets_perdidos = (quantidade_de_tweets % tweets_por_pagina) / quantidade_de_tweets * 100.0\n\nprint 'Ser\u00e3o necess\u00e1rias %d p\u00e1gina(s) para visualizar os tweets.' % paginas\nprint '%.1f%% dos tweets ser\u00e3o perdidos.' % percentual_tweets_perdidos\n",
+      "name": "tweets.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "d61b23553c67a0a1ede22947f6af7306",
+  "iid": 6613595836121088,
+  "activity_revision": "1.1.1"
+}

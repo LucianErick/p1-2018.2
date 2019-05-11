@@ -1,0 +1,14 @@
+{
+  "files": {
+    "conceito.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: Convers\u00e3o de Nota em Conceito\n\nnota_1 = float(raw_input())\nnota_2 = float(raw_input())\nnota_3 = float(raw_input())\nnota_4 = float(raw_input())\n\nmedia = (nota_1 + nota_2 + nota_3 + nota_4) / 4\n\nif 9 <= media:\n   print 'Conceito A.'\n\nelif 7.5 <= media < 9:\n   print 'Conceito B.'\n\nelif 6 <= media < 7.5:\n   print 'Conceito C.'\n\t   \nelif 4 <= media < 6:\n   print 'Conceito D.'\n\t   \nelif media < 4:\n   print 'Conceito E.'\t  \t   \t      \n",
+      "name": "conceito.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "678f077a563fd4532be756462bd26227",
+  "iid": 5163728559407104,
+  "activity_revision": "1.0.1"
+}

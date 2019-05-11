@@ -1,0 +1,19 @@
+{
+  "files": {
+    "nota_final1.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Nota na final\n\nprint '== Est\u00e1gio 1 =='\npeso1 = float(raw_input('Peso? '))\nnota1 = float(raw_input('Nota? '))\n\nprint '== Est\u00e1gio 2 =='\npeso2 = float(raw_input('Peso? ')) \nnota2 = float(raw_input('Nota? '))\n\nprint '== Est\u00e1gio 3 =='\npeso3 = float(raw_input('Peso? '))\nnota3 = float(raw_input('Nota? '))\n\nparcial = (nota1 * peso1) + (nota2 * peso2) + (nota3 * peso3) / (peso1 + peso2 + peso3)\nnota_5 = ((5.0 - parcial * 0.6) / 0.4)\nnota_7 = ((7.0 - parcial * 0.6) / 0.4)\n\nprint '== Resultados =='\nprint 'M\u00e9dia parcial: %.1f' % parcial\nprint 'Nota na final, pra m\u00e9dia 5.0 = %.1f' % nota_5\nprint 'Nota na final, pra m\u00e9dia 7.0 = %.1f' % nota_7\nprint \n",
+      "name": "nota_final1.py"
+    },
+    "nota_final.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Nota na final\n\nprint '== Est\u00e1gio 1 =='\npeso1 = float(raw_input('Peso? '))\nnota1 = float(raw_input('Nota? '))\nprint '== Est\u00e1gio 2 =='\npeso2 = float(raw_input('Peso? ')) \nnota2 = float(raw_input('Nota? '))\nprint '== Est\u00e1gio 3 =='\npeso3 = float(raw_input('Peso? '))\nnota3 = float(raw_input('Nota? '))\n\nparcial = (nota1 * peso1) + (nota2 * peso2) + (nota3 * peso3) / (peso1 + peso2 + peso3)\n\nnota_5 = ((parcial * 0.6 - 5.0) / 0.4) * - 1  \n\nnota_7 = ((parcial * 0.6 - 7.0) / 0.4) * - 1\n\nprint '== Resultados =='\nprint 'M\u00e9dia parcial: %.1f' % parcial\nprint 'Nota na final, pra m\u00e9dia 5.0 = %.1f' % nota_5\nprint 'Nota na final, pra m\u00e9dia 7.0 = %.1f' % nota_7\n     \n",
+      "name": "nota_final.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "4eca3a90b16f4040f19ce8b3d5225d4c",
+  "iid": 4992266737287168,
+  "activity_revision": "1.1.0"
+}

@@ -1,0 +1,18 @@
+{
+  "files": {
+    "dez.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: Dez ou soma dez\n\nnumero_1 = int(raw_input())\nnumero_2 = int(raw_input())\n\nif numero_1 == 10 or numero_2 == 10:\n   print 'SIM'\n\nelif (numero_1 + numero_2) == 10:\n   print 'SIM'\n   \nelse: \n   print 'NAO'\n           \n",
+      "name": "dez.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 3,\n      \"pep8\": 0,\n      \"lloc\": 6,\n      \"vhalstead\": 53.15,\n      \"header\": 3\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "805b33eb70779734f3a5608b96fe6171",
+  "iid": 5864665611501568,
+  "activity_revision": "1.0.2"
+}

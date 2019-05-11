@@ -1,0 +1,14 @@
+{
+  "files": {
+    "medidas.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Convers\u00e3o de medidas\n\nmilhas = float(raw_input())\nlibras = float(raw_input())\ngaloes = float(raw_input())\n\nquilometros = milhas * 1.60934\nquilogramas = libras * 0.453592\nlitros = galoes * 3.78541\n\nprint str(quilometros), str(quilogramas), str(litros)\n",
+      "name": "medidas.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "ba6ef6892de8c6fa0db490d7aea8d266",
+  "iid": 5906536794685440,
+  "activity_revision": "1.0.0"
+}

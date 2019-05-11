@@ -1,0 +1,14 @@
+{
+  "files": {
+    "peso_e_imc.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: Peso e IMC\n\npeso = float(raw_input())\naltura = float(raw_input())\n\nimc = peso / altura ** 2.0\nvalor_ideal = 24.9 \n\npeso_final = 24.9 * altura ** 2\nvariacao_peso = peso_final - peso\n\nprint 'IMC atual = %.2f' % imc \nprint 'Peso a ser ganho/perdido = %.2f' % variacao_peso\n\n",
+      "name": "peso_e_imc.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "3b3735c9df1e96b17c3a0e01363ba54f",
+  "iid": 6172560005791744,
+  "activity_revision": "2.0.0"
+}

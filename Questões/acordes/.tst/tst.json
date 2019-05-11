@@ -1,0 +1,18 @@
+{
+  "files": {
+    "public_tests.py": {
+      "category": "public",
+      "data": "import unittest\nimport sys\n\nundertest = __import__(sys.argv[-1].split(\".py\")[0])\nacordes = getattr(undertest, 'acordes', None)\n\nclass PublicTests(unittest.TestCase):\n\n    def test_exemplo(self):\n        m1 = ['c', 'd', 'dm']\n        m2 = ['c', 'a']\n        \n        assert acordes(m1, m2) == ['c', 'd', 'dm', 'a']\n        assert m1 == ['c', 'd', 'dm']\n        assert m2 == ['c', 'a']\n        \n        m1 = ['c', 'd']\n        m2 = ['c', 'a']\n        assert acordes(m1, m2) == ['c', 'd', 'a']\n\n\nif __name__ == '__main__':\n    loader = unittest.TestLoader()\n    runner = unittest.TextTestRunner()\n    runner.run(loader.loadTestsFromModule(sys.modules[__name__]))\n"
+    },
+    "acordes.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o I\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Acordes Aprendidos\n\ndef my_in(elemento, lista):\n\n    for i in range(len(lista)):\n        if lista[i] == elemento:\n            return True\n    return False\n\ndef acordes(musica_1, musica_2):\n    aprendidos = []\n\n    if len(musica_1) != 0:\n        for nota in musica_1:\n            aprendidos.append(nota)\n\n    if len(musica_2) != 0:\n        for nota in musica_2:\n\n            if my_in(nota, musica_1) == False:\n                aprendidos.append(nota)\n\n    return aprendidos\n",
+      "name": "acordes.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "b78b5cf21e782fd481e3276635768a7f",
+  "iid": 5806223672737792,
+  "activity_revision": "1.0.0"
+}

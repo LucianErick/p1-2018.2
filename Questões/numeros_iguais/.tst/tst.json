@@ -1,0 +1,14 @@
+{
+  "files": {
+    "numeros_iguais.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: N\u00fameros iguais\n\nnumero_1 = int(raw_input())\nnumero_2 = int(raw_input())\nnumero_3 = int(raw_input())\n\nif numero_1 != numero_2 and numero_1 != numero_3 and numero_2 != numero_3:\n   print '0'\n\nelif numero_1 == numero_2 and numero_1 == numero_3 and numero_2 == numero_3:\n   print '3' \n\nelif numero_1 == numero_2 or numero_1 == numero_3 or numero_2 == numero_3:\n   print '2'\n   \n     \t\n",
+      "name": "numeros_iguais.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "a413900bf5725795c7379431a065f42e",
+  "iid": 5643930464944128,
+  "activity_revision": "1.1.0"
+}

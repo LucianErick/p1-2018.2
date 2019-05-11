@@ -1,0 +1,14 @@
+{
+  "files": {
+    "embarque.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: Embarque passageiros\n\nprimeira_classe = int(raw_input())\nclasse_economica = int(raw_input())\nprimeira_outro_voo = 0 \neconomica_primeira = 0 \neconomica_outro_voo = 0 \n\n\nif (primeira_classe - 10) <= 0:\n   primeira_outro_voo = 0\n\nif (primeira_classe - 10) > 0:\n   primeira_outro_voo = primeira_classe - 10\n\nif (classe_economica - 100) <= 0: \n   economica_primeira = 0      \t\n\nif (classe_economica - 100) > 0 and (10 - primeira_classe) > 0:\n   economica_primeira = (10 - primeira_classe)     \n\nif (classe_economica - 100) > 0 and (10 - primeira_classe) <= 0:\n   economica_primeira = 0\n\nif (classe_economica - 100) > 0 and ((10 - primeira_classe) + (classe_economica - 100)) > 0:\n   economica_outro_voo =  (classe_economica - 100) - (10 - primeira_classe)  \n\n\npassageiros = (primeira_classe + classe_economica) - (primeira_outro_voo + economica_outro_voo) \n \nprint '%s passageiro(s) da primeira classe remanejado(s) para outro voo.' % primeira_outro_voo  \nprint '%s passageiro(s) da econ\u00f4mica remanejado(s) para a primeira classe.' % economica_primeira\nprint '%s passageiro(s) da econ\u00f4mica remanejado(s) para outro voo.' % economica_outro_voo \nprint '%s passageiros embarcados.' % passageiros\n\n",
+      "name": "embarque.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "af357b9af86e02ca89b5bf4d46e3c8c8",
+  "iid": 5035430101647360,
+  "activity_revision": "1.1.0"
+}

@@ -1,0 +1,14 @@
+{
+  "files": {
+    "perda_transito.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Perda de Tempo no Tr\u00e2nsito\n\nsegunda = int(raw_input())\nterca = int(raw_input())\nquarta = int(raw_input())\nquinta = int(raw_input())\nsexta = int(raw_input())\n\ntempo_gasto = segunda + terca + quarta + quinta + sexta\n\nmedia = tempo_gasto / 5\n\ntotal = 7200\n\nporcentagem = (tempo_gasto * 1.0 / total) * 100\n\nepisodios = int(tempo_gasto / 50)\n\nprint 'Voc\u00ea perdeu %i min na semana (m\u00e9dia de %.1f min por dia).' % (tempo_gasto, media)\nprint 'Isso significa %.2f%% da sua semana produtiva.' % porcentagem\nprint 'Daria para assistir %i epis\u00f3dio(s) de House.' % episodios\n",
+      "name": "perda_transito.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "46f89821ab405931e32f54939053c938",
+  "iid": 4504603869577216,
+  "activity_revision": "1.1.1"
+}

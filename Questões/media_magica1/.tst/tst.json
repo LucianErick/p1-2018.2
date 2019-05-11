@@ -1,0 +1,19 @@
+{
+  "files": {
+    "media_magica1.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: M\u00e9dia M\u00e1gica\n\nprimeiro_numero = int(raw_input())\nsegundo_numero = int(raw_input())\nterceiro_numero = int(raw_input())\n\nmedia = (primeiro_numero + segundo_numero + terceiro_numero) / 3.0\n\nprint '%.3f' % media\n",
+      "name": "media_magica1.py"
+    },
+    "media_magica.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: M\u00e9dia M\u00e1gica\n\nprimeiro_numero = int(raw_input())\nsegundo_numero = int(raw_input())\nterceiro_numero = int(raw_input())\n\nmedia = (primeiro_numero + segundo_numero + terceiro_numero) / 3.0\n\nprint '%.3f' % media\n",
+      "name": "media_magica.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "44e72176b4bafe3483a7ff95d217ff4c",
+  "iid": 6356319627902976,
+  "activity_revision": "1.1.1"
+}

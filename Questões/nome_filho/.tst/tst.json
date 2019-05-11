@@ -1,0 +1,14 @@
+{
+  "files": {
+    "nome_filho.py": {
+      "category": "answer",
+      "data": "#coding: utf-8\n#Aluno: Luciano Erick Sousa Figueiredo Filho\n#Matr\u00edcula: 118110400\n#Universidade Federal de Campina Grande\n#Ci\u00eancia da computa\u00e7\u00e3o\n#Programa\u00e7\u00e3o 1\n#Problema: Escolhendo o nome do filho\n\npai = raw_input()\navo_paterno = raw_input()\navo_materno = raw_input()\n\nif (pai != avo_paterno) and (pai != avo_materno) and (avo_materno != avo_paterno):\n   nome = '%s %s %s' % (pai, avo_paterno, avo_materno)\n   print nome\n   \nelif pai == avo_paterno and pai != avo_materno and avo_paterno != avo_materno:\n   print avo_materno\n\nelif pai == avo_materno and pai != avo_paterno and avo_paterno != avo_materno:\n   print avo_paterno\n      \nelif avo_materno == avo_paterno and avo_materno != pai and avo_materno != pai:\n   print pai\n             \nelif pai == avo_materno == avo_paterno:\n   print 'Rafael'\n   \t             \n",
+      "name": "nome_filho.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "144bdb193fad640224cb72872b034498",
+  "iid": 5549750422077440,
+  "activity_revision": "1.1.1"
+}

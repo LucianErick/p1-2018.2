@@ -1,0 +1,14 @@
+{
+  "files": {
+    "callcenter.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Universidade Federal de Campina Grande\n# Ci\u00eancia da Computa\u00e7\u00e3o\n# Programa\u00e7\u00e3o 2018.2\n# Aluno: Luciano Erick Sousa Figueiredo Filho\n# Matr\u00edcula: 118110400\n# Problema: Call Center\n\nsegunda = int(raw_input())\nterca = int(raw_input())\nquarta = int(raw_input())\nquinta = int(raw_input())\nsexta = int(raw_input())\nsabado = int(raw_input())\ndomingo = int(raw_input())\n\ntotal = segunda + terca + quarta + quinta + sexta + sabado + domingo\nmedia = (total / 7.0)\n\nprint 'Total: %i' % total \nprint 'M\u00e9dia: %.2f' % media\n",
+      "name": "callcenter.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "9f5141fb340f461926e5b3492ae57182",
+  "iid": 6677782226534400,
+  "activity_revision": "1.0.3"
+}
